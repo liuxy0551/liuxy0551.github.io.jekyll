@@ -9,6 +9,7 @@ tag: Android
 
 ## 工具 / 原料
 
+
 JDK 1.8（其他版本同理）
 Eclipse
 Android SDK
@@ -31,6 +32,8 @@ ADT
 			变量名：Path
 			变量值：;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;
 
+
+### 2、申请包含 Network Extension 的描述文件
 			![](/images/posts/AndroidIDE/javamulu.jpg)
 			![](/images/posts/AndroidIDE/xinjianxitongbianliang.jpg)
 			![](/images/posts/AndroidIDE/cmd-javac.jpg)
