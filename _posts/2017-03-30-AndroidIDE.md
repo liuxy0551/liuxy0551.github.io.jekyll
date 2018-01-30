@@ -9,12 +9,7 @@ tag: Android
 
 ## 工具 / 原料
 
-
-JDK 1.8（其他版本同理）
-Eclipse
-Android SDK
-ADT
-
+JDK 1.8、Eclipse、Android SDK、ADT
 
 ## 方法 / 步骤
 
