@@ -29,9 +29,7 @@ JDK 1.8、Eclipse、Android SDK、ADT
 
 
 ### 2、申请包含 Network Extension 的描述文件
-			![](/images/posts/AndroidIDE/javamulu.png)
-			![](/images/posts/AndroidIDE/xinjianxitongbianliang.png)
-			![](/images/posts/AndroidIDE/cmd-javac.png)
+![](/images/posts/AndroidIDE/javamulu.png)
 
 		测试是否安装配置成功：Win+R，输入cmd，按Enter继续，输入javac，按Enter，出现相关内容即证明安装配置成功。
 
