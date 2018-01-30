@@ -165,15 +165,6 @@ ERROR Plugin load failed: hexo-server
 
 这里有大量的[主题列表](https://github.com/hexojs/hexo/wiki/Themes)使用方法里面
 都有详细的介绍，我就不多说了。      
-我这里有几款个人认为不错的主题，免去你们，一个一个的选了，欢迎吐槽我的审美，?         
-　[Cover](https://github.com/daisygao/hexo-themes-cover) - A chic theme with facebook-like cover photo      
-　[Oishi](https://github.com/henryhuang/oishi) - A white theme based on Landscape plus and Writing.      
-　[Sidebar](https://github.com/hardywu/hexo-theme-sidebar) - Another theme based on Light with a simple sidebar    
-　[TKL](https://github.com/SuperKieran/TKL) - A responsive design theme for Hexo. 一个设计优雅的响应式主题    
-　[Tinnypp](https://github.com/levonlin/Tinnypp) - A clean, simple theme based on Tinny     
-　[Writing](https://github.com/yunlzheng/hexo-themes-writing) - A small and simple hexo theme based on Light     
-　[Yilia](https://github.com/litten/hexo-theme-yilia) - Responsive and simple style 优雅简洁响应式主题，我用得就是这个。    
-　[Pacman voidy](https://github.com/Voidly/pacman) - A theme with dynamic tagcloud and dynamic snow      
 
 ### 一些基本路径
 　文章在 source/_posts，编辑器可以用 Sublime，支持 markdown 语法。如果想修改头像可以直接在主题的 _config.yml 文件里面修改，友情链接，之类的都在这里，修改名字在 public/index.html 里修改，开始打理你的博客吧，有什么问题或者建议，都可以提出来，我会继续完善的。
