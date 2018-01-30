@@ -45,8 +45,7 @@ JDK 1.8、Eclipse、Android SDK、ADT
 			[http://www.androiddevtools.cn/](http://www.androiddevtools.cn/)
 			![](/images/posts/AndroidIDE/SDKTools1.png)
 
-			[http://tools.android-studio.org/index.php/sdk/](http://tools.android-studio.org/index.php/sdk/)
-			![](/images/posts/AndroidIDE/SDKTools2.png)
+
 
 #### 2.安装：
 
