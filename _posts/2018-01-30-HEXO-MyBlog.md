@@ -8,7 +8,7 @@ tag: 博客
 
 　　经过各种找资料，踩过各种坑，终于使用 Atom + Github Desktop 搭建个人博客初步完成了，域名目前用得时 github 的，使用的软件时 Atom + Github Desktop。好吧，废话不多说了，开始吧。     
 
-　　[原文](http://baixin.io/2015/08/HEXO%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2)/累计了大量评论，和我的一些解答，读者有什么问题可以先看看评论，或者搜下关键字，如果还是有问题可以给我在评论里给我留言，问题很着急的可以加我 ＱＱ：1820995742　，或者给我发邮件：[leopardpan@icloud.com](mailto:leopardpan@icloud.com)  ，都可以，如果你已经搭建完成了，可以看看我的另一篇博客[HEXO进阶](http://baixin.io/2016/06/HEXO_Advanced/)，有讲如何能百度搜索你的博客、多台电脑使用HEXO发布博客等。我现在的博客是使用 Jekyll 搭建的，如果你想使用我现在的模板请看[Jekyll搭建个人博客](http://baixin.io/2016/10/jekyll_tutorials1/) 
+　　/累计了大量评论，和我的一些解答，读者有什么问题可以先看看评论，或者搜下关键字，如果还是有问题可以给我在评论里给我留言，问题很着急的可以加我 ＱＱ：1820995742　，或者给我发邮件：[leopardpan@icloud.com](mailto:leopardpan@icloud.com)  ，都可以，如果你已经搭建完成了，可以看看我的另一篇博客[HEXO进阶](http://baixin.io/2016/06/HEXO_Advanced/)，有讲如何能百度搜索你的博客、多台电脑使用HEXO发布博客等。我现在的博客是使用 Jekyll 搭建的，如果你想使用我现在的模板请看[Jekyll搭建个人博客](http://baixin.io/2016/10/jekyll_tutorials1/) 
  
 
 ## 正文：
