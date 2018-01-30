@@ -15,23 +15,45 @@ JDK 1.8、Eclipse、Android SDK、ADT
 
 ### 一、JDK的安装与环境变量的配置
 
-   选择[Oracle官网](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)下载对应版本或者直接选择百度“JDK”下载。安装完成后出现两个文件夹jdk和jre，接下来我们需要设置三个系统变量，右击	我的电脑->属性->高级系统设置->环境变量->系统变量，三个系统变量分别是：
+   选择[Oracle官网](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)下载对应版本或者直接选择百度“JDK”下载。安装完成后出现两个文件夹 jdk 和 jre，接下来我们需要设置三个系统变量，右击	我的电脑->属性->高级系统设置->环境变量->系统变量，三个系统变量分别是：
 
 	  1、JAVA_HOME：变量值为JDK在你电脑上的安装路径
-	 		变量名：JAVA_HOME
-			变量值：E:\java\jdk1.8.0_121
+	 			变量名：JAVA_HOME
+				变量值：E:\java\jdk1.8.0_121
 		2、CLASSPATH：注意变量值字符串前面有一个"."表示当前目录
-			变量名：CLASSPATH
-			变量值：.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar
+				变量名：CLASSPATH
+				变量值：.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar
 		3、Path：Path属性已存在，可直接编辑，在原来变量后追加即可
-			变量名：Path
-			变量值：;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;
+				变量名：Path
+				变量值：;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;
 
 测试是否安装配置成功：Win+R，输入cmd，按Enter继续，输入javac，按Enter，出现相关内容即证明安装配置成功。
 
-### 1、向 Apple 申请开发 Network Extension 权限
+### 二、下载安装Eclipse
 
-　　首先要先写封邮件给 [networkextension@apple.com](mailto:networkextension@apple.com) ，问苹果要开发 Network Extension 的权限。     
+   Eclipse是一种Java应用程序及Android开发的IDE（集成开发环境），不需要安装，下载后解压，剪切eclipse文件夹到你想安装的地方，打开时设置你的工作目录即日后各种项目的存放位置，此时已完成了普通java应用程序的开发环境准备。
+
+    本篇经验下载的是[Eclipse IDE for Java EE Developers](https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/2/eclipse-jee-oxygen-2-win32-x86_64.zip) 版本，点击链接，点击 Download，下载时无需输入邮箱，等待浏览器左下方的“正在连接”完成即可弹出下载界面。
+
+### 三、下载安装Android SDK
+
+我们要使用Eclipse来开发Android应用程序，那么需要下载Android SDK和在Eclipse中安装ADT插件，这个插件能让Eclipse和Android SDK关联起来。
+
+#### 1.下载：
+
+      打开http://developer.android.com/sdk/index.html（没有梯子打不开）可下载Android SDK。或者从下面两个网站下载
+
+			[http://www.androiddevtools.cn/](http://www.androiddevtools.cn/)
+			![](/images/posts/AndroidIDE/SDKTools1.png)
+
+			[http://tools.android-studio.org/index.php/sdk/](http://tools.android-studio.org/index.php/sdk/)
+			![](/images/posts/AndroidIDE/SDKTools2.png)
+
+
+
+
+
+		 [networkextension@apple.com]，问苹果要开发 Network Extension 的权限。     
 苹果收到邮件后会自动回复邮件，在 [https://developer.apple.com/contact/network-extension/](https://developer.apple.com/contact/network-extension/) 里面填写申请表格，内容包括：     
 
 ```
