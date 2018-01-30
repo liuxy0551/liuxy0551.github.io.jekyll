@@ -882,7 +882,7 @@ img::-moz-selection {
 .post-list__meta--date {
   margin-right: .5em;
   margin-left: 10px;
-  margin-top: 3px;
+  margin-top: 0px;
   color: #c7c7c7;
   float: left;
 
