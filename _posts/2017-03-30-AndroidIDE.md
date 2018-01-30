@@ -5,7 +5,7 @@ date: 2017-03-30
 tag: Android
 ---
 
-##### 在Windows下安装Android的开发环境虽说不简单但也算不上复杂，本篇经验写给同为小白的朋友们，文章步骤经作者测试正确可行，
+#####     在Windows下安装Android的开发环境虽说不简单但也算不上复杂，本篇经验写给同为小白的朋友们，文章步骤经作者测试正确可行，
 ##### 希望对准备进入Android开发的你们有所帮助。
 
 ## 工具 / 原料
@@ -16,21 +16,20 @@ tag: Android
 
 ### 一、JDK的安装与环境变量的配置
 
-   选择[Oracle官网](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)下载对应版本或者
-   直接选择百度“JDK”下载。安装完成后出现两个文件夹 jdk 和 jre，接下来我们需要设置三个系统变量，右击	我的电脑->属性->高级
+   选择[Oracle公司官网](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)下载对应版本或者直接选择百度“JDK”下载。安装完成后出现两个文件夹 jdk 和 jre，接下来我们需要设置三个系统变量，右击	我的电脑->属性->高级
    系统设置->环境变量->系统变量，三个系统变量分别是：
 
-	1、JAVA_HOME：变量值为JDK在你电脑上的安装路径
+	 1、JAVA_HOME：变量值为JDK在你电脑上的安装路径
 			变量名：JAVA_HOME
 			变量值：E:\java\jdk1.8.0_121
-	2、CLASSPATH：注意变量值字符串前面有一个"."表示当前目录
+	 2、CLASSPATH：注意变量值字符串前面有一个"."表示当前目录
 			变量名：CLASSPATH
 			变量值：.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar
-	3、Path：Path属性已存在，可直接编辑，在原来变量后追加即可
+	 3、Path：Path属性已存在，可直接编辑，在原来变量后追加即可
 			变量名：Path
 			变量值：;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;
 
-    测试是否安装配置成功：Win+R，输入cmd，按Enter继续，输入javac，按Enter，出现相关内容即证明安装配置成功。
+   测试是否安装配置成功：Win+R，输入cmd，按Enter继续，输入javac，按Enter，出现相关内容即证明安装配置成功。
 
 ### 二、下载安装Eclipse
 
