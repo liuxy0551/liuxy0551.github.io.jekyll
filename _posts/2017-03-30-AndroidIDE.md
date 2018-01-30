@@ -16,7 +16,6 @@ JDK 1.8、Eclipse、Android SDK、ADT
 ### 一、JDK的安装与环境变量的配置
 
    选择[Oracle官网](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)下载对应版本或者直接选择百度“JDK”下载。安装完成后出现两个文件夹 jdk 和 jre，接下来我们需要设置三个系统变量，右击	我的电脑->属性->高级系统设置->环境变量->系统变量，三个系统变量分别是：
-
 	  1、JAVA_HOME：变量值为JDK在你电脑上的安装路径
 	 			变量名：JAVA_HOME
 				变量值：E:\java\jdk1.8.0_121
