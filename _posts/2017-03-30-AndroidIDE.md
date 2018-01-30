@@ -32,8 +32,7 @@ JDK 1.8、Eclipse、Android SDK、ADT
 ### 二、下载安装Eclipse
 
    Eclipse是一种Java应用程序及Android开发的IDE（集成开发环境），不需要安装，下载后解压，剪切eclipse文件夹到你想安装的地方，打开时设置你的工作目录即日后各种项目的存放位置，此时已完成了普通java应用程序的开发环境准备。
-
-    本篇经验下载的是[Eclipse IDE for Java EE Developers](https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/2/eclipse-jee-oxygen-2-win32-x86_64.zip) 版本，点击链接，点击 Download，下载时无需输入邮箱，等待浏览器左下方的“正在连接”完成即可弹出下载界面。
+	 本篇经验下载的是[Eclipse IDE for Java EE Developers](https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/2/eclipse-jee-oxygen-2-win32-x86_64.zip) 版本，点击链接，点击 Download，下载时无需输入邮箱，等待浏览器左下方的“正在连接”完成即可弹出下载界面。
 
 ### 三、下载安装Android SDK
 
@@ -49,28 +48,14 @@ JDK 1.8、Eclipse、Android SDK、ADT
 			[http://tools.android-studio.org/index.php/sdk/](http://tools.android-studio.org/index.php/sdk/)
 			![](/images/posts/AndroidIDE/SDKTools2.png)
 
+#### 2.安装：
+
+			下载完成后双击解压“installer_r24.4.1-windows.exe”选择解压文件夹，解压完成后双击“SDK Manager”，加载可安装的安卓版本。
+			![](/images/posts/AndroidIDE/AndroidSDKManager.png)
 
 
 
 
-		 [networkextension@apple.com]，问苹果要开发 Network Extension 的权限。     
-苹果收到邮件后会自动回复邮件，在 [https://developer.apple.com/contact/network-extension/](https://developer.apple.com/contact/network-extension/) 里面填写申请表格，内容包括：     
-
-```
-Organization：               
-
-Company / Product URL:             
-
-What's your product's target market?              
-
-What's your company's primary function?             
-
-Describe your application and how it will use the Network Extension framework.            
-
-What type of entitlement are you requesting?                     
-
-。。。
-```
 
 申请后大概两周左右能收到 Aplle的 确认信，如：
 
