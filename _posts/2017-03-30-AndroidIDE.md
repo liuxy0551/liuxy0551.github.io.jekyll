@@ -38,7 +38,6 @@ JDK 1.8、Eclipse、Android SDK、ADT
 我们要使用Eclipse来开发Android应用程序，那么需要下载Android SDK和在Eclipse中安装ADT插件，这个插件能让Eclipse和Android SDK关联起来。
 
 #### 1.下载：
-
       打开http://developer.android.com/sdk/index.html（没有梯子打不开）可下载Android SDK。或者从下面两个网站下载
 			[http://www.androiddevtools.cn/](http://www.androiddevtools.cn/)
 			<img src="/images/posts/AndroidIDE/SDKTools1.png" height="526" width="298">
@@ -47,7 +46,6 @@ JDK 1.8、Eclipse、Android SDK、ADT
 			![](/images/posts/AndroidIDE/SDKTools2.png)
 
 #### 2.安装：
-
 			下载完成后双击解压“installer_r24.4.1-windows.exe”选择解压文件夹，解压完成后双击“SDK Manager”，加载可安装的安卓版本。
 			![](/images/posts/AndroidIDE/AndroidSDKManager.png)
 
@@ -55,7 +53,6 @@ JDK 1.8、Eclipse、Android SDK、ADT
 			从万能的百度搜索上，找到了解决这个问题的方法：
 
 ##### 更改host文件
-
 			在C:\Windows\System32\drivers\etc目录下，用记事本打开“hosts”文件，将下面两行信息加到hosts文件的末尾，保存退出。
 
 			203.208.46.146 dl.google.com
