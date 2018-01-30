@@ -41,16 +41,30 @@ JDK 1.8、Eclipse、Android SDK、ADT
 #### 1.下载：
 
       打开http://developer.android.com/sdk/index.html（没有梯子打不开）可下载Android SDK。或者从下面两个网站下载
-
 			[http://www.androiddevtools.cn/](http://www.androiddevtools.cn/)
-			![](/images/posts/AndroidIDE/SDKTools1.png)
+			<img src="/images/posts/AndroidIDE/SDKTools1.png" height="526" width="298">
 
-
+			[http://tools.android-studio.org/index.php/sdk/](http://tools.android-studio.org/index.php/sdk/)
+			![](/images/posts/AndroidIDE/SDKTools2.png)
 
 #### 2.安装：
 
 			下载完成后双击解压“installer_r24.4.1-windows.exe”选择解压文件夹，解压完成后双击“SDK Manager”，加载可安装的安卓版本。
 			![](/images/posts/AndroidIDE/AndroidSDKManager.png)
+
+			因为国内有墙，有时候会出现加载安卓版本失败的情况。
+			从万能的百度搜索上，找到了解决这个问题的方法：
+
+##### 更改host文件
+
+			在C:\Windows\System32\drivers\etc目录下，用记事本打开“hosts”文件，将下面两行信息加到hosts文件的末尾，保存退出。
+
+			203.208.46.146 dl.google.com
+			203.208.46.146 dl-ssl.google.com
+
+##### 将SDK Manage上的https请求更改成http请求
+
+			打开SDK Manager，Tools->Options，勾选 Force https://..sources to be fetched using http://... ，如图。退出重新打开SDK Manager，一般情况下就可以正常加载了。
 
 
 
