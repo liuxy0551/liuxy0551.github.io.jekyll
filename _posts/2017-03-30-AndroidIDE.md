@@ -5,12 +5,13 @@ date: 2017-03-30
 tag: Android
 ---
 
-在Windows下安装Android的开发环境虽说不简单但也算不上复杂，本篇经验写给同为小白的朋友们，文章步骤经作者  测试正确可行，希望对准备进入Android开发的你们有所帮助。
+___
+
+## 在Windows下安装Android的开发环境虽说不简单但也算不上复杂，本篇经验写给同为小白的朋友们，文章步骤经作者  测试正确可行，希望对准备进入Android开发的你们有所帮助。
 
 
 # 工具 / 原料
-
-  JDK 1.8（其他版本同理）、Eclipse、Android SDK、ADT
+    JDK 1.8（其他版本同理）、Eclipse、Android SDK、ADT
 
 
 # 方法 / 步骤
