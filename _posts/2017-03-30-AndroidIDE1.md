@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 轻松搞定 Android 开发环境的搭建
+title: 轻松搞定 Android 开发环境的搭建123123
 date: 2017-03-30
 tag: Android
 ---
@@ -43,7 +43,7 @@ tag: Android
 
       我们要使用Eclipse来开发Android应用程序，那么需要下载Android SDK和在Eclipse中安装ADT插件，这个插件能让Eclipse和Android SDK
     关联起来。
-		
+
 #### 1.下载：
 
 	打开http://developer.android.com/sdk/index.html（没有梯子打不开）可下载Android SDK。或者从下面两个网站下载
