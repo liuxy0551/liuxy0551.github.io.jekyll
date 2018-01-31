@@ -34,6 +34,8 @@ tag: Android
 |CLASSPATH|``.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar`|注意变量值字符串前面有一个"."表示当前目录|
 |Path|``;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;``|Path属性已存在，可直接编辑，在原来变量后追加即可|
 
+- 变量值中如果有内容，用;隔开
+- 测试是否安装配置成功：Win+R，输入cmd，按Enter继续，输入javac，按Enter，出现相关内容即证明安装配置成功
 
 ## 二、下载安装Eclipse
 
