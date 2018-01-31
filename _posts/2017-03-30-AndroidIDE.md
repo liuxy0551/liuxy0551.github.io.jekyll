@@ -63,10 +63,10 @@ ___
 
 　　在 C:\Windows\System32\drivers\etc 目录下，用记事本打开“hosts”文件，将下面两行信息加到 hosts 文件的末尾，保存退出。
 
-　　```
-　　203.208.46.146 dl.google.com  
-　　203.208.46.146 dl-ssl.google.com
-　　```
+```
+203.208.46.146 dl.google.com  
+203.208.46.146 dl-ssl.google.com
+```
 
 #### (2).将SDK Manage上的https请求更改成http请求
 
