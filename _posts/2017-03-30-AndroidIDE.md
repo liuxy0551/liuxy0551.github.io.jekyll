@@ -28,11 +28,11 @@ tag: Android
 系统设置->环境变量->系统变量，三个系统变量分别是：
 
 
-|变量名|变量值|
-|----|-----|
-|JAVA_HOME|E:\java\jdk1.8.0_121|
-|CLASSPATH|.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar|
-|Path|;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;|
+|变量名|变量值|备注|
+|----|----|----|
+|JAVA_HOME|`E:\java\jdk1.8.0_121`|变量值为JDK在你电脑上的安装路径|
+|CLASSPATH|``.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar`|注意变量值字符串前面有一个"."表示当前目录|
+|Path|``;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;``|Path属性已存在，可直接编辑，在原来变量后追加即可|
 
 
 ## 二、下载安装Eclipse
