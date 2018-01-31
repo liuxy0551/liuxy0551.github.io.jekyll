@@ -36,16 +36,22 @@ ___
 
 ## 三、下载安装Android SDK
 
+### 1.下载
+
 　　我们要使用 Eclipse 来开发 Android 应用程序，那么需要下载 Android SDK 和在 Eclipse 中安装 ADT 插件，这个插件能让 Eclips 和 Android SDK 关联起来。
 
 　　打开 http://developer.android.com/sdk/index.html（没有梯子打不开）可下载 Android SDK。或者从下面两个网站下载
 [http://www.androiddevtools.cn/](http://www.androiddevtools.cn/)  
-![](/images/posts/AndroidIDE/SDKTools1.png)(http://www.androiddevtools.cn/) 
-[http://tools.android-studio.org/index.php/sdk/](http://tools.android-studio.org/index.php/sdk/)
+
 ![](/images/posts/AndroidIDE/SDKTools1.png)
-### 1.下载
+
+[http://tools.android-studio.org/index.php/sdk/](http://tools.android-studio.org/index.php/sdk/)  
+
+![](/images/posts/AndroidIDE/SDKTools2.png)
 
 ### 2.安装
+
+　　下载完成后双击解压“installer_r24.4.1-windows.exe”选择解压文件夹，解压完成后双击“SDK Manager”，加载可安装的安卓版本。
 
 #### (1).安装
 
