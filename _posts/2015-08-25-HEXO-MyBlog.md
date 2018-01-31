@@ -1,18 +1,21 @@
-﻿---
+---
 layout: post
 title: "HEXO搭建个人博客"
-date: 2018-01-30
-description: "Atom, Atom + Github Desktop, 搭建自己的博客"
-tag: 博客
+date: 2015-08-25 
+description: "HEXO配置，HEXO+Github，搭建自己的博客"
+tag: 博客 
 ---   
 
+　　经过各种找资料，踩过各种坑，终于使用 hexo 搭建个人博客初步完成了，域名目前用得时 github 的，我的 hexo 是 3.1.1 版本，hexo 不同的版本，很多配置都不一样。好吧，废话不多说了，开始吧。     
 
-　　经过各种找资料，踩过各种坑，终于使用 Atom + Github Desktop 搭建个人博客初步完成了，域名目前用得时 github 的，我使用的软件是 Atom + Github Desktop。我的博客是我在原作者教程的指导下，使用自己的方法构建的，可能有部分还没发现的问题，欢迎指正， <!--more--> 晚些时候我会写一篇自己博客构建的过程，本篇博客是原作者的部分重要内容。
+　　本篇文章累计了大量评论，和我的一些解答，读者有什么问题可以先看看评论，或者搜下关键字，如果还是有问题可以给我在评论里给我留言，问题很着急的可以加我 ＱＱ：1499065178　，或者给我发邮件：[leopardpan@icloud.com](mailto:leopardpan@icloud.com)  ，都可以，如果你已经搭建完成了，可以看看我的另一篇博客[HEXO进阶](http://baixin.io/2016/06/HEXO_Advanced/)，有讲如何能百度搜索你的博客、多台电脑使用HEXO发布博客等。我现在的博客是使用 Jekyll 搭建的，如果你想使用我现在的模板请看[Jekyll搭建个人博客](http://baixin.io/2016/10/jekyll_tutorials1/) 
+ 
 
-　　原作者的文章[HEXO搭建个人博客](http://baixin.io/2015/08/HEXO%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/)累计了大量评论，和原作者的一些解答，读者有什么问题可以先看看评论，或者搜下关键字，如果还是有问题可以在评论里给我留言，问题很着急的可以加我 QQ：1820995742　，或者给我发邮件：[liuxy0551@qq.com](mailto:liuxy0551@qq.com)  ，都可以，如果你已经搭建完成了，可以看看原作者的另一篇博客[HEXO进阶](http://baixin.io/2016/06/HEXO_Advanced/)，有讲如何能百度搜索你的博客、多台电脑使用HEXO发布博客等。原作者现在的博客是使用 Jekyll 搭建的，如果你想使用原作者现在的模板请看[Jekyll搭建个人博客](http://baixin.io/2016/10/jekyll_tutorials1/)。
+## 正文：
+　这边教程是针对与Mac的，[参考链接](http://ibruce.info/2013/11/22/hexo-your-blog/?utm_source=tuicool)，由于原文讲到的hexo是以前的老版本，所以现在的版本配置的时候会有些改动。
 
-　  之前有想着写博客，一方面是给自己做笔记，可以提升自己的写作、总结能力，一个技术点我们会使用，并不难，但是要做到让让别人也能听懂我们讲的内容，还是需要一定的技巧和经验的。很多类似于CSDN、博客园也都可以写文章，但是页面的样式一直使用得不习惯，简书还算好点得。最近看到一些大神们的博客（在原作者的友情链接里有），貌似都是用hexo写得。
-
+　之前是想着写博客，一方面是给自己做笔记，可以提升自己的写作、总结能力，一个技术点我们会使用，并不难，但是要做到让让别人也能听懂我们讲得，还是需要一定的技巧和经验的。很多类似于CSDN、博客园也都可以写文章，但是页面的样式我，不是太喜欢，简书还算好点得。最近看到一些大神们的博客（在我的友情链接里有），貌似都是用hexo写得，我也依葫芦画瓢的搭建了一个。不罗嗦了，直接上搭建步骤。
+ 
 ## 配置环境     
 
 ### 安装Node（必须）         
@@ -74,7 +77,7 @@ ERROR Plugin load failed: hexo-server
 解决方法，执行命令：$ npm install hexo-server --save
 
 提示：hexo-server@0.1.2 node_modules/hexo-server
-....
+.... 
 
 表示成功了[参考](https://hexo.io/zh-cn/docs/server.html)
 
@@ -104,7 +107,7 @@ ERROR Plugin load failed: hexo-server
 
 
 ## 配置Github          
-
+   
 ### 建立Repository     
 
 建立与你用户名对应的仓库，仓库名必须为【your_user_name.github.io】，固定写法
@@ -148,7 +151,7 @@ ERROR Plugin load failed: hexo-server
 ### 部署步骤
 
 每次部署的步骤，可按以下三步来进行。
-
+ 
 	hexo clean
 	hexo generate
 	hexo deploy
@@ -165,6 +168,15 @@ ERROR Plugin load failed: hexo-server
 
 这里有大量的[主题列表](https://github.com/hexojs/hexo/wiki/Themes)使用方法里面
 都有详细的介绍，我就不多说了。      
+我这里有几款个人认为不错的主题，免去你们，一个一个的选了，欢迎吐槽我的审美，?         
+　[Cover](https://github.com/daisygao/hexo-themes-cover) - A chic theme with facebook-like cover photo      
+　[Oishi](https://github.com/henryhuang/oishi) - A white theme based on Landscape plus and Writing.      
+　[Sidebar](https://github.com/hardywu/hexo-theme-sidebar) - Another theme based on Light with a simple sidebar    
+　[TKL](https://github.com/SuperKieran/TKL) - A responsive design theme for Hexo. 一个设计优雅的响应式主题    
+　[Tinnypp](https://github.com/levonlin/Tinnypp) - A clean, simple theme based on Tinny     
+　[Writing](https://github.com/yunlzheng/hexo-themes-writing) - A small and simple hexo theme based on Light     
+　[Yilia](https://github.com/litten/hexo-theme-yilia) - Responsive and simple style 优雅简洁响应式主题，我用得就是这个。    
+　[Pacman voidy](https://github.com/Voidly/pacman) - A theme with dynamic tagcloud and dynamic snow      
 
 ### 一些基本路径
 　文章在 source/_posts，编辑器可以用 Sublime，支持 markdown 语法。如果想修改头像可以直接在主题的 _config.yml 文件里面修改，友情链接，之类的都在这里，修改名字在 public/index.html 里修改，开始打理你的博客吧，有什么问题或者建议，都可以提出来，我会继续完善的。
