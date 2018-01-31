@@ -31,10 +31,12 @@ title: 关于我
 
 <p>
 
-博客源码在 <a target="_blank" href='https://github.com/leopardpan/leopardpan.github.io/'>原作者的Github</a> 上，你的 Star 是我更新的动力，谢谢~
+博客源码在 <a target="_blank" href='https://github.com/leopardpan/leopardpan.github.io/'>原作者的Github</a> 上，你的 Star 是我们更新的动力，谢谢~
 
 <p>
-
+你可以通过以下方法联系我
+<p>
+我的邮箱：[liuxy0551@qq.com](liuxy0551@qq.com)   我的QQ：1820995742（请备注：博客）
 <p>
 
 <p>
