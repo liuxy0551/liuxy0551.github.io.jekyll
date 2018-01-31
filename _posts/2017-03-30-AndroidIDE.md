@@ -5,8 +5,7 @@ date: 2017-03-30
 tag: Android
 ---
 
-#####     在Windows下安装Android的开发环境虽说不简单但也算不上复杂，本篇经验写给同为小白的朋友们，文章步骤经作者测试正确可行，
-##### 希望对准备进入Android开发的你们有所帮助。
+#####     在Windows下安装Android的开发环境虽说不简单但也算不上复杂，本篇经验写给同为小白的朋友们，文章步骤经作者测试正确可行，希望对准备进入Android开发的你们有所帮助。
 
 # 工具 / 原料
 
@@ -15,6 +14,9 @@ tag: Android
 # 方法 / 步骤
 
 ## 一、JDK的安装与环境变量的配置
+
+      选择[Oracle公司官网](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)下载对应版本或者直接选择百度“JDK”下载。安装完成后出现两个文件夹 jdk 和 jre，接下来我们需要设置三个系统变量，右击	我的电脑->属性->高级
+      系统设置->环境变量->系统变量，三个系统变量分别是：
 
 ## 二、下载安装Eclipse
 
