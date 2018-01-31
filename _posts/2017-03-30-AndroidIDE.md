@@ -32,11 +32,15 @@ ___
 
 ## 二、下载安装Eclipse
 
-　　Eclipse 是一种 Java 应用程序及 Android 开发的 IDE（集成开发环境），不需要安装，下载后解压，剪切 eclipse 文件夹到你想安装的地方，打开时设置你的工作目录即日后各种项目的存放位置，此时已完成了普通 Java 应用程序的开发环境准备。本篇经验下载的是 Eclipse IDE for Java EE Developers 版本，下载时无需输入邮箱，等待浏览器左下方的“正在连接”完成即可弹出下载界面。
+　　Eclipse 是一种 Java 应用程序及 Android 开发的 IDE（集成开发环境），不需要安装，下载后解压，剪切 eclipse 文件夹到你想安装的地方，打开时设置你的工作目录即日后各种项目的存放位置，此时已完成了普通 Java 应用程序的开发环境准备。本篇经验下载的是 [Eclipse IDE for Java EE Developers](https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/2/eclipse-jee-oxygen-2-win32-x86_64.zip) 版本，点击 DOWNLOAD 下载，然后等待浏览器下载。
 
 ## 三、下载安装Android SDK
 
 我们要使用 Eclipse 来开发 Android 应用程序，那么需要下载 Android SDK 和在 Eclipse 中安装 ADT 插件，这个插件能让 Eclips 和 Android SDK 关联起来。
+
+打开 http://developer.android.com/sdk/index.html（没有梯子打不开）可下载 Android SDK。或者从下面两个网站下载
+[http://www.androiddevtools.cn/](http://www.androiddevtools.cn/)
+[http://tools.android-studio.org/index.php/sdk/](http://tools.android-studio.org/index.php/sdk/)
 
 ### 1.下载
 
