@@ -54,6 +54,7 @@ ___
 #### 2、安装
 
 　　下载完成后双击“installer_r24.4.1-windows.exe”，选择解压文件夹，完成后双击“SDK Manager”，加载可安装的安卓版本。
+    <br>
 　　![](/images/posts/AndroidIDE/AndroidSDKManager.png)
 
 　　因为国内有墙，有时候会出现加载安卓版本失败的情况。从万能的百度搜索上，找到了解决这个问题的方法：
