@@ -25,7 +25,7 @@ ___
 |----|----|----|
 |JAVA_HOME|`E:\java\jdk1.8.0_121`|变量值为JDK在你电脑上的安装路径|
 |CLASSPATH|`.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar`|注意变量值字符串前面有一个"."表示当前目录|
-|Path|';%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;`|Path属性已存在，可直接编辑，在原来变量后追加即可|
+|Path|`;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;`|Path属性已存在，可直接编辑，在原来变量后追加即可|
 
 - 变量值中如果有内容，用 ; 隔开
 - 测试是否安装配置成功：Win+R，输入 cmd，按 Enter 继续，输入 javac，按 Enter，出现相关内容即证明安装配置成功
