@@ -9,15 +9,8 @@ ___
 ##### 　　在Windows下安装Android的开发环境虽说不简单但也算不上复杂，本篇经验写给同为小白的朋友们,文章步骤经作者测试正确可行，  
 ##### 希望对准备进入Android开发的你们有所帮助。
 
-
-## 目录
-* [Tools](#Tools)
-* [标题](#标题)
-* [文本](#文本)
-
-
 ___
-## Tools
+## 工具 / 原料
     JDK 1.8（其他版本同理）、Eclipse、Android SDK、ADT
 
 ___
@@ -86,13 +79,13 @@ ___
 #### (3).安装ADT（离线安装）
 
 官网各版本下载链接：（本篇经验使用的是ADT-23.0.6）
-```
+
 [https://dl.google.com/android/ADT-23.0.6.zip](https://dl.google.com/android/ADT-23.0.6.zip)  
 [https://dl.google.com/android/ADT-23.0.4.zip](https://dl.google.com/android/ADT-23.0.4.zip)  
 [https://dl.google.com/android/ADT-23.0.3.zip](https://dl.google.com/android/ADT-23.0.3.zip)  
 [https://dl.google.com/android/ADT-23.0.2.zip](https://dl.google.com/android/ADT-23.0.2.zip)  
 [https://dl.google.com/android/ADT-23.0.0.zip](https://dl.google.com/android/ADT-23.0.0.zip)  
-```
+
 　　启动 Eclipse，Help -> Install New Software，点击 Add… 按钮，名称可以用 ADT，然后点击 Archive 选择 ADT 的压缩包，点击 OK 选择要安装的工具，下一步。安装完成重启 Eclipse。在 Eclipse 中点击 Window -> Preferences...，选择 Android：配置好你的 SDK 路径，则会出现刚才在 SDK 中安装的各平台包。
 ![](/images/posts/AndroidIDE/SDKLocation.png)
 
