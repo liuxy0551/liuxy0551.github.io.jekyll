@@ -32,8 +32,8 @@ ___
 
 ### 二、下载安装Eclipse
 
-　　Eclipse 是一种 Java 应用程序及 Android 开发的 IDE（集成开发环境），不需要安装，下载后解压，剪切 eclipse 文件夹到你想安装的地方，打开时设置你的工作目录即日后各种项目的存放位置，此时已完成了普通 Java 应用程序的开发环境准备。本篇经验下载的是 [Eclipse IDE for Java EE Developers](https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/2/eclipse-jee-oxygen-2-win32-x86_64.zip) 版本，点击 `DOWNLOAD` 下载，然后等待浏览器下载。
-<br>
+　　Eclipse 是一种 Java 应用程序及 Android 开发的 IDE（集成开发环境），不需要安装，下载后解压，剪切 eclipse 文件夹到你想安装的地方，打开时设置你的工作目录即日后各种项目的存放位置，此时已完成了普通 Java 应用程序的开发环境准备。本篇经验下载的是 [Eclipse IDE for Java EE Developers](https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/2/eclipse-jee-oxygen-2-win32-x86_64.zip) 版本，点击 `DOWNLOAD` 下载，然后等待浏览器下载。  
+
 
 ### 三、下载安装Android SDK
 
@@ -63,18 +63,18 @@ ___
 
 　　在 C:\Windows\System32\drivers\etc 目录下，用记事本打开“hosts”文件，将下面两行信息加到 hosts 文件的末尾，保存退出。
 
-```
-203.208.46.146 dl.google.com  
-203.208.46.146 dl-ssl.google.com
-```
+  ```
+  203.208.46.146 dl.google.com  
+  203.208.46.146 dl-ssl.google.com
+  ```
 
 #### (2).将SDK Manage上的https请求更改成http请求
 
 　　打开 SDK Manager，Tools -> Options，勾选 Force https://..sources to be fetched using http://... ，如图。退出重新打开 SDK Manager，一般情况下就可以正常加载了
 
 - 1、建议使用旧手机测试程序，旧手机是什么版本就勾选什么版本，无需多装其他版本，不宜贪多;
-- 2、选好后点击安装，同意，开始安装，这一步非常耗时也经常出现安装失败的情况，安装失败的安装包重新勾选再安装。
-<br>
+- 2、选好后点击安装，同意，开始安装，这一步非常耗时也经常出现安装失败的情况，安装失败的安装包重新勾选再安装。  
+
 ![](/images/posts/AndroidIDE/AndroidList.png)
 
 #### (3).安装ADT（离线安装）
@@ -87,19 +87,21 @@ ___
 [https://dl.google.com/android/ADT-23.0.2.zip](https://dl.google.com/android/ADT-23.0.2.zip)  
 [https://dl.google.com/android/ADT-23.0.0.zip](https://dl.google.com/android/ADT-23.0.0.zip)  
 
-　　启动 Eclipse，Help -> Install New Software，点击 Add… 按钮，名称可以用 ADT，然后点击 Archive 选择 ADT 的压缩包，点击 OK 选择要安装的工具，下一步。安装完成重启 Eclipse。在 Eclipse 中点击 Window -> Preferences...，选择 Android：配置好你的 SDK 路径，则会出现刚才在 SDK 中安装的各平台包。
+　　启动 Eclipse，Help -> Install New Software，点击 Add… 按钮，名称可以用 ADT，然后点击 Archive 选择 ADT 的压缩包，点击 OK 选择要安装的工具，下一步。安装完成重启 Eclipse。在 Eclipse 中点击 Window -> Preferences...，选择 Android：配置好你的 SDK 路径，则会出现刚才在 SDK 中安装的各平台包。  
+
 ![](/images/posts/AndroidIDE/SDKLocation.png)
 
-　　到这里，Windows 系统上的 Android 开发环境就搭建完成了。在 Eclipse 中打开 File -> New -> Project 新建一个项目的时候，就可以看到建立 Android 项目的选项。测试程序可以连接 USB 线使用真机（需打开开发者模式中的 USB 调试功能），也可以使用此时已安装好的 Android SDK and AVD Manager（虚拟设备）。
+　　到这里，Windows 系统上的 Android 开发环境就搭建完成了。在 Eclipse 中打开 File -> New -> Project 新建一个项目的时候，就可以看到建立 Android 项目的选项。测试程序可以连接 USB 线使用真机（需打开开发者模式中的 USB 调试功能），也可以使用此时已安装好的 Android SDK and AVD Manager（虚拟设备）。  
+
 ![](/images/posts/AndroidIDE/AndroidProject.png)
 
 ___
 ### Q&A
 
-在操作过程或者文章有问题的话欢迎在[原文](https://liuxy0551.github.io/2017/03/AndroidIDE/) 里提问或指正。
+在操作过程或者文章有问题的话欢迎在[原文](https://liuxy0551.github.io/2017/03/AndroidIDE/) 里提问或指正。  
 
 >* 安装多个安卓版本会十分耗时，耐心等待；
->* 建议安装测试设备对应的安卓版本或其他目标版本，多个版本很占用空间。
+>* 建议安装测试设备对应的安卓版本或其他目标版本，多个版本很占用空间。  
 
 参考资源：[轻松搞定Android开发环境的搭建](https://jingyan.baidu.com/article/46650658c30866f548e5f842.html) By 留仙女103
 
