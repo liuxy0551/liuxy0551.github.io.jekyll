@@ -6,7 +6,7 @@ tag: Android
 ---
 
 ___
-#### 在Windows下安装Android的开发环境虽说不简单但也算不上复杂，本篇经验写给同为小白的
+#### 　　在Windows下安装Android的开发环境虽说不简单但也算不上复杂，本篇经验写给同为小白的
 #### 朋友们，文章步骤经作者测试正确可行，希望对准备进入Android开发的你们有所帮助。
 
 ___
@@ -32,7 +32,12 @@ ___
 
 ## 二、下载安装Eclipse
 
+　　Eclipse是一种Java应用程序及Android开发的IDE（集成开发环境），不需要安装，下载后解压，剪切eclipse文件夹到你想安装的地方，打开  
+时设置你的工作目录即日后各种项目的存放位置，此时已完成了普通java应用程序的开发环境准备。本篇经验下载的是Eclipse IDE for Java EE   Developers版本，下载时无需输入邮箱，等待浏览器左下方的“正在连接”完成即可弹出下载界面。
+
 ## 三、下载安装Android SDK
+
+我们要使用Eclipse来开发Android应用程序，那么需要下载Android SDK和在Eclipse中安装ADT插件，这个插件能让Eclipse和Android SDK关联起来。
 
 ### 1.下载
 
