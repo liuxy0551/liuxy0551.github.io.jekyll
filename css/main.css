@@ -500,6 +500,7 @@ img::-moz-selection {
     margin-top: 20px;
     font-size: 1.8em;
     letter-spacing: 4px;
+    font-family: Georgia;
     color: #FFF; }
 
   .panel-subtitle {
