@@ -40,6 +40,7 @@ ___
 
 　　打开 http://developer.android.com/sdk/index.html（没有梯子打不开）可下载 Android SDK。或者从下面两个网站下载
 [http://www.androiddevtools.cn/](http://www.androiddevtools.cn/)  
+![](/images/posts/AndroidIDE/SDKTools1.png)
 [http://tools.android-studio.org/index.php/sdk/](http://tools.android-studio.org/index.php/sdk/)
 
 ### 1.下载
