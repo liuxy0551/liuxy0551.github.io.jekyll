@@ -39,7 +39,7 @@ ___
 * [表情](#表情)
 * [diff语法](#diff语法)
 
-___
+***、
 Tools
 ------
     JDK 1.8（其他版本同理）、Eclipse、Android SDK、ADT
