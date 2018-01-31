@@ -19,7 +19,7 @@ ___
 ## 一、JDK的安装与环境变量的配置
 
 　　选择[Oracle公司官网](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)下载对应版本的JDK直接选择百度“JDK”下载。安装完成后出现两个文件夹 jdk 和 jre，接下来我们需要设置  
-三个系统变量，右击	我的电脑->属性->高级->系统设置->环境变量->系统变量，三个系统变量分别是：
+三个系统变量，右击	我的电脑 -> 属性 -> 高级系统设置 -> 系统设置 -> 环境变量 -> 系统变量，三个系统变量分别是：
 
 |变量名|变量值|备注|
 |----|----|----|
@@ -27,8 +27,8 @@ ___
 |CLASSPATH|`.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar`|注意变量值字符串前面有一个"."表示当前目录|
 |Path|`;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;`|Path属性已存在，可直接编辑，在原来变量后追加即可|
 
-- 变量值中如果有内容，用 ; 隔开
-- 测试是否安装配置成功：Win+R，输入 cmd，按 Enter 继续，输入 javac，按 Enter，出现相关内容即证明安装配置成功
+- 1、变量值中如果有内容，用 ; 隔开；
+- 2、测试是否安装配置成功：Win+R，输入 cmd，按 Enter 继续，输入 javac，按 Enter，出现相关内容即证明安装配置成功。
 
 ## 二、下载安装Eclipse
 
