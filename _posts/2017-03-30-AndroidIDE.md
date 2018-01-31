@@ -52,8 +52,18 @@ ___
 ### 2.安装
 
 　　下载完成后双击解压“installer_r24.4.1-windows.exe”选择解压文件夹，解压完成后双击“SDK Manager”，加载可安装的安卓版本。
+　　![](/images/posts/AndroidIDE/AndroidSDKManager.png)
 
-#### (1).安装
+    因为国内有墙，有时候会出现加载安卓版本失败的情况。从万能的百度搜索上，找到了解决这个问题的方法：
+
+#### (1).更改host文件
+
+    在 C:\Windows\System32\drivers\etc 目录下，用记事本打开“hosts”文件，将下面两行信息加到 hosts 文件的末尾，保存退出。
+
+```
+203.208.46.146 dl.google.com
+203.208.46.146 dl-ssl.google.com
+```
 
 #### (2).将SDK Manage上的https请求更改成http请求
 
