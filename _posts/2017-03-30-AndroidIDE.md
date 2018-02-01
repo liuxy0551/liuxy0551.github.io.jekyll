@@ -11,8 +11,8 @@ ___
 
 ___
 ## 工具 / 原料
-    JDK 1.8（其他版本同理）、Eclipse、Android SDK、ADT  
-    <!--more-->
+    JDK 1.8（其他版本同理）、Eclipse、Android SDK、ADT
+
 ___
 ## 方法 / 步骤
 
