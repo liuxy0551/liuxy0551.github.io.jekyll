@@ -1,0 +1,42 @@
+---
+layout: post
+title: 勒索（比特币）病毒的预防
+date: 2017-05-13
+tag: 勒索病毒，比特币病毒，预防
+---
+
+___
+##### 　　开发中遇到测试数据清空时，发现tbl_dept表自增长的id是tbl_emp表的外键，使用TRUNCATE TABLE tbl_dept;语句会报错。
+
+___
+### 1、错误信息如下：
+
+    1 queries executed, 0 success, 1 errors, 0 warnings
+    查询：truncate table tbl_dept
+    错误代码： 1701
+    Cannot truncate a table referenced in a foreign key constraint (`ssm_crud`.`tbl_emp`, CONSTRAINT `fk_emp_dept`  
+
+    FOREIGN KEY (`d_id`) REFERENCES `ssm_crud`.`tbl_dept` (`dept_id`))
+    执行耗时   : 0 sec
+    传送时间   : 0 sec
+    总耗时      : 0.001 sec
+
+### 2、解决方法
+SQL窗口执行以下语句
+
+    SET FOREIGN_KEY_CHECKS=0;
+    TRUNCATE TABLE `tbl_dept`;
+    SET FOREIGN_KEY_CHECKS=1;
+
+转载自[mysql清空具有外键约束的表时报ERROR 1701(42000)的解决](https://www.aliang.org/MySQL/874.html)
+
+___
+### Q&A
+
+在操作过程中或者文章有问题的话欢迎在[本文](https://liuxy0551.github.io/2018/01/MySQL-1701/) 里提问或指正。  
+
+
+参考资源：[MySQL清空具有外键约束的表中id自增长报1701解决方法](http://blog.csdn.net/m0_38130651/article/details/79192506) By 只是没有如果
+
+<br>
+转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [MySQL清空具有外键约束的表中id自增长报1701解决方法](https://liuxy0551.github.io/2018/01/MySQL-1701/)
