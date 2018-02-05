@@ -6,29 +6,28 @@ tag: 勒索病毒，比特币病毒，预防
 ---
 
 ___
-##### 　　开发中遇到测试数据清空时，发现tbl_dept表自增长的id是tbl_emp表的外键，使用TRUNCATE TABLE tbl_dept;语句会报错。
+##### 　　最近看到很多关于 ONION 和 WNCRY 勒索病毒攻击的信息，其中绝大多数是使用校园网的学生，但不仅仅是学生，也不仅仅在最近发生。中毒后被要求在规定时间内支付比特币等赎金才能解密恢复文件，对个人资料和经济造成严重损失。
 
 ___
-### 1、错误信息如下：
+### 1、工具
 
-    1 queries executed, 0 success, 1 errors, 0 warnings
-    查询：truncate table tbl_dept
-    错误代码： 1701
-    Cannot truncate a table referenced in a foreign key constraint (`ssm_crud`.`tbl_emp`, CONSTRAINT `fk_emp_dept`  
+    360 安全卫士
+    360NSA 武器库免疫工具
 
-    FOREIGN KEY (`d_id`) REFERENCES `ssm_crud`.`tbl_dept` (`dept_id`))
-    执行耗时   : 0 sec
-    传送时间   : 0 sec
-    总耗时      : 0.001 sec
+### 2、勒索病毒全球爆发
 
-### 2、解决方法
-SQL窗口执行以下语句
+> 　　根据网络安全机构通报，这是不法分子利用 NSA 黑客武器库泄漏的“永恒之蓝”发起的病毒攻击事件。“永恒之蓝”会扫描开放 445 文件共享端口的 Windows 机器，无需用户任何操作，只要开机上网，不法分子就能在电脑和服务器中植入勒索软件、远程控制木马、虚拟货币挖矿机等恶意程序。
+由于以前国内多次爆发利用 445 端口传播的蠕虫，运营商对个人用户已封掉 445 端口，但是教育网并没有此限制，仍然存在大量暴露 445 端口的机器。据有关机构统计，目前国内平均每天有 5000 多台机器遭到 NSA“永恒之蓝”黑客武器的远程攻击，教育网是受攻击的重灾区。
+目前微软已发布补丁 MS17-010 修复了“永恒之蓝”攻击的系统漏洞，请尽快为电脑安装此补丁；对于 XP、2003 等微软已不再提供安全更新的机器，推荐使用“NSA武器库免疫工具”检测系统是否存在漏洞，并关闭受到漏洞影响的端口，可以避免遭到勒索软件等病毒的侵害。    ——[黑客凯文的微博](https://weibo.com/u/6038922387?refer_flag=1001030101_)
 
-    SET FOREIGN_KEY_CHECKS=0;
-    TRUNCATE TABLE `tbl_dept`;
-    SET FOREIGN_KEY_CHECKS=1;
 
-转载自[mysql清空具有外键约束的表时报ERROR 1701(42000)的解决](https://www.aliang.org/MySQL/874.html)
+### 3、未中毒的电脑
+
+1、未中毒的电脑考虑多次、多种途径备份重要资料，做好云盘和移动硬盘等的备份，尤其是校园网内的毕业季学生；
+2、点击[微软补丁MS17-010O](https://technet.microsoft.com/zh-cn/library/security/MS17-010)给电脑安装最新补丁，XP 及以下版本忽略；
+3、点击[360NSA武器库免疫工具](http://blog.csdn.net/m0_38130651/article/details/71794637#%E6%9C%AA%E4%B8%AD%E6%AF%92%E7%9A%84%E7%94%B5%E8%84%91)下载“360NSA武器库免疫工具”，不保证完全好用。使用方法：下载完成拔除网线后开机，开机后不要联网，确认 360 安全卫士运行正常，打开 360 安全卫士的“反勒索服务”，再使用“360NSA武器库免疫工具”检测电脑；
+4、关闭 445、135 等危险端口，具体操作参考[对应的百度经验](https://jingyan.baidu.com/article/d621e8da0abd192865913f1f.html)；
+5、不要访问可疑网站、不打开可疑邮件和文件。
 
 ___
 ### Q&A
