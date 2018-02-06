@@ -24,7 +24,7 @@ ___
 
 ### 2、理解服务含义
 
-　　成功安装 Oracle 11g 后，共有七个服务，这七个服务的含义可以参照[这篇百度知道理解](https://zhidao.baidu.com/question/265616629111117845.html)
+　　成功安装 Oracle 11g 后，共有七个服务，这七个服务的含义可以参照[这篇百度知道理解](https://zhidao.baidu.com/question/265616629111117845.html)，内容如下：
 <br>![](/images/posts/Oracle-Service/seven.png)<br>
 
 ### 3、新建.bat文件
@@ -72,7 +72,6 @@ ___
     timeout 3
     exit
 
-<br>
 <br>![](/images/posts/Oracle-Service/bat.png)<br>
 
 >**注意**
