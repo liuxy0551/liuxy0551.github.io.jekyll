@@ -102,4 +102,6 @@ ___
 >* 1、通过 bat 文件启动服务后需要等待 20~60 秒后才能登录，由电脑性能决定；
 >* 2、类似的，MySQL的服务也可以这么解决，VMware也可以。
 
+
+<br>
 转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [如何快速开启和关闭 Orcale 所需的服务](https://liuxy0551.github.io/2017/11/Oracle-Service/)
