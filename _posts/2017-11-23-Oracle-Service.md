@@ -79,11 +79,12 @@ ___
 
 　　将上述文本文件改名为“PLSQL Developer 12.bat”，将文件剪切到 PLSQL Developer 12 的安装目录（随意哪个目录），然后“发送到 -> 桌面快捷方式”右击桌面上该快捷方式 -> 属性 -> 更改图标 -> 浏览，进入 PLSQL 安装目录，选择 plsqldev.exe，一路确认，将快捷方式改名为“PLSQL Developer 12”。
 <br>
-![](/images/posts/Oracle-Service/tubiao.png)<br>
+<br>![](/images/posts/Oracle-Service/tubiao.png)<br>
 
 ### 5、启动与停止服务
 
-　　打开快捷方式，根据提示选择，关闭服务后，两个服务已经停止。同理，启动服务按提示进行即可。使用后可前往“服务”查看服务是否已启动或停止
+　　打开快捷方式，根据提示选择，关闭服务后，两个服务已经停止。同理，启动服务按提示进行即可。使用后可前往“服务”查看服务是否已启动或停止。
+<br>
 <br>![](/images/posts/Oracle-Service/qidong.png)
 
 上文提到的部分文件：
