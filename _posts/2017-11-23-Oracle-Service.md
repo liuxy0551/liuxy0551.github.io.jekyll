@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 如何快速开启和关闭 orcale 所需的服务
+title: 如何快速开启和关闭 Orcale 所需的服务
 date: 2017-11-23
 tag: Oracle，服务
 ---
@@ -87,12 +87,6 @@ ___
 
 在操作过程中或者文章有问题的话欢迎在[原文](https://liuxy0551.github.io/2017/05/Oracle-Service/) 里提问或指正。  
 
->* 1、通过 bat 文件启动服务后需要等待 20~60 秒后才能登录
->* 2、电脑和ESP8266连接同一WiFi，即局域网内完成实验;
->* 3、可以用手机开热点，这样可以看到ESP8266是否连接上WiFi。
+>* 通过 bat 文件启动服务后需要等待 20~60 秒后才能登录，由电脑性能决定
 
-
-参考资源：[ESP8266 通过 Arduino 自动发送数据到网络调试助手](https://jingyan.baidu.com/article/14bd256e69c54dbb6c26127c.html) By 留仙女103
-
-<br>
-转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [ESP8266 通过 Arduino 自动发送数据到网络调试助手](https://liuxy0551.github.io/2017/05/Arduino+ESP8266/)
+转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [如何快速开启和关闭 Orcale 所需的服务](https://liuxy0551.github.io/2017/11/Oracle-Service/)
