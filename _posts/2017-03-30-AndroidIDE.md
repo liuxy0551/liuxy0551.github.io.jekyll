@@ -41,7 +41,7 @@ ___
 
 　　我们要使用 Eclipse 来开发 Android 应用程序，那么需要下载 Android SDK 和在 Eclipse 中安装 ADT 插件，这个插件能让 Eclips 和 Android SDK 关联起来。
 
-　　打开 [http://developer.android.com/sdk/index.html](http://developer.android.com/sdk/index.html)（没有梯子打不开）可下载 Android SDK。或者从下面两个网站下载
+　　打开 [http://developer.android.com/sdk/index.html](http://developer.android.com/sdk/index.html)（没有梯子打不开）可下载 Android SDK。或者从下面两个网站下载  
 [http://www.androiddevtools.cn/](http://www.androiddevtools.cn/)  
 
 ![](/images/posts/AndroidIDE/SDKTools1.png)
