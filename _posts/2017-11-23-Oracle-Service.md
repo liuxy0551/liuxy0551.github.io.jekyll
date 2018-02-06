@@ -39,6 +39,7 @@ ___
     ) else (
       echo 1.服务OracleServiceORCL已停止
     )
+
     for /f "skip=3 tokens=4" %%i in ('sc query "OracleOraDb11g_home1TNSListener"') do set "zt=%%i" &goto :next
     :next
     if /i "%zt%"=="RUNNING" (
@@ -46,6 +47,7 @@ ___
     ) else (
       echo 2.服务OracleOraDb11g_home1TNSListener已停止
     )
+
     choice /c:12 /m "启动/停止ORCALE服务[1启动,2停止]"
     if errorlevel 2 goto two
     if errorlevel 1 goto one
@@ -54,21 +56,24 @@ ___
     net start "OracleServiceORCL"
     net start "OracleOraDb11g_home1TNSListener"
     echo 服务OracleServiceORCL、OracleOraDb11g_home1TNSListener 启动成功！
+
     choice /c:12 /m " 是否启动PLSQL Developer 12 ？[1是,2否]"
     if errorlevel 2 exit
     if errorlevel 1 start "" "E:\PLSQL Developer 12\plsqldev.exe"
     >nul
+
     :two
     echo 正在禁用服务...
     net stop "OracleServiceORCL"
     net stop "OracleOraDb11g_home1TNSListener"
+
     echo 服务OracleServiceORCL、OracleOraDb11g_home1TNSListener 禁用成功！
     echo 可按任意键退出...
-    timeout 5
+    timeout 3
     exit
 
 <br>
-<br>![](/images/posts/Oracle-Service/seven.png)<br>
+<br>![](/images/posts/Oracle-Service/bat.png)<br>
 
 ### 4、美观步骤
 
