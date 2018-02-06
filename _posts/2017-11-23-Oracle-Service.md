@@ -66,7 +66,7 @@ ___
     echo 可按任意键退出...
     timeout 5
     exit
-    
+
 <br>
 <br>![](/images/posts/Oracle-Service/seven.png)<br>
 
@@ -88,6 +88,7 @@ ___
 
 在操作过程中或者文章有问题的话欢迎在[原文](https://liuxy0551.github.io/2017/05/Oracle-Service/) 里提问或指正。  
 
->* 通过 bat 文件启动服务后需要等待 20~60 秒后才能登录，由电脑性能决定
+>* 1、通过 bat 文件启动服务后需要等待 20~60 秒后才能登录，由电脑性能决定；
+>* 2、类似的，MySQL的服务也可以这么解决，VMware也可以。
 
 转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [如何快速开启和关闭 Orcale 所需的服务](https://liuxy0551.github.io/2017/11/Oracle-Service/)
