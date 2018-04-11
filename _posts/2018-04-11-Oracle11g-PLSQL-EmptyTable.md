@@ -76,10 +76,10 @@ ___
 
 文章有不妥的地方感谢留言指正，谢谢您！
 其他知识可上网查找资料，共同学习进步。
-在操作过程中或者文章有问题的话欢迎在[本文](https://liuxy0551.github.io/2018/04/Oracle 11g-PLSQL-EmptyTable/) 里提问或指正。
+在操作过程中或者文章有问题的话欢迎在[本文](https://liuxy0551.github.io/2018/04/Oracle11g-PLSQL-EmptyTable/) 里提问或指正。
 
 >* 1、写这篇文章的时候发现在 Atom 中选中单词，按住 Ctrl 后按 K， 再按 U，即可将选中的单词大写
 >* 2、白天的技巧：Eclipse 中查看方法在哪里被调用了——选中方法，直接Ctrl+Shift+G或者Ctrl+Alt+H
 
 <br>
-转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [Oracle 11g 数据库备份涉及的部分记忆点](https://liuxy0551.github.io/2018/04/Oracle 11g-PLSQL-EmptyTable/)
+转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [Oracle 11g 数据库备份涉及的部分记忆点](https://liuxy0551.github.io/2018/04/Oracle11g-PLSQL-EmptyTable/)
