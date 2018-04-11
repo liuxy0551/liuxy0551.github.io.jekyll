@@ -31,10 +31,10 @@ ___
 
 然后就可以新建项目了，进入刚才创建的项目里面启动服务:
 
-    ng new my-app      // 新建项目
+    ng new my-app
     cd my-app
-    cnpm install      // 安装依赖
-    ng serve --open      // 启动服务
+    cnpm install
+    ng serve --open
 
 ### 三、ionic 3
 
@@ -44,10 +44,10 @@ ___
 
 新建带 tabs 的项目并启动服务（或menu）：
 
-    ionic start ionicDemo02 tabs 					          // 新建项目
+    ionic start ionicDemo02 tabs
     cd ionicDemo02
-    cnpm install 					          // 安装依赖（npm i）
-    ionic serve 					          // 运行项目
+    cnpm install
+    ionic serve
 
 ionic 3 新建组件的命令：ionic g page 组件名，如：
 
@@ -63,9 +63,9 @@ ionic 3 新建组件的命令：ionic g page 组件名，如：
 
     ionic cordova platform add android
 
-　　修改 E:\AppDemo\Ionic2\cplease\platforms\android\cordova\lib\builders\GradleBuilder.js 中的第250行，将行末改为指向本地的 gradle-4.1-all.zip 文件，改为'../gradle-4.1-all.zip'。
+修改 E:\AppDemo\Ionic2\cplease\platforms\android\cordova\lib\builders\GradleBuilder.js 中的第250行，将行末改为指向本地的 gradle-4.1-all.zip 文件，改为'../gradle-4.1-all.zip'。
 
-
+<br>
 打包成 apk 文件（生成一个 debug 包，无签名）的命令：
 
     ionic cordova build android  --prod
@@ -93,7 +93,7 @@ ___
 
 文章有不妥的地方感谢留言指正，谢谢您！  
 其他知识可上网查找资料，共同学习进步。  
-在操作过程中或者文章有问题的话欢迎在[本文](https://liuxy0551.github.io/2018/04/Ionic3+Angular4.x+Cordova/) 里提问或指正。
+在操作过程中或者文章有问题的话欢迎在[本文](https://liuxy0551.github.io/2018/03/Ionic3+Angular4.x+Cordova/) 里提问或指正。
 
 <br>
-转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [Ionic 3 + Angularjs 4.x + Cordova 混合开发项目小战](https://liuxy0551.github.io/2018/04/Ionic3+Angular4.x+Cordova/)
+转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [Ionic 3 + Angularjs 4.x + Cordova 混合开发项目小战](https://liuxy0551.github.io/2018/03/Ionic3+Angular4.x+Cordova/)

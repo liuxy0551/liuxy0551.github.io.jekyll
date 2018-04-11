@@ -47,7 +47,7 @@ ___
 
     SELECT 'ALTER TABLE '||TABLE_NAME||' ALLOCATE EXTENT;' FROM USER_TABLES WHERE SEGMENT_CREATED='NO';
 
-　　<br>![](/images/posts/Oracle-PLSQL/result.png)
+![](/images/posts/Oracle-PLSQL/result.png)<br>
 
 可以通过语句导出查询结果，执行导出的语句即可（表数量少的话可以复制粘贴执行查询结果）。
 
@@ -68,6 +68,8 @@ ___
 　　(3)第三种：设置deferred_segment_creation 参数，该参数值默认是TRUE，当改为FALSE时，无论是空表还是非空表，都分配segment。
     （这种方法我没有试过，你可以自行尝试）
 
+    <br>
+
     SELECT 'ALTER TABLE '||TABLE_NAME||' ALLOCATE EXTENT;' FROM USER_TABLES WHERE NUM_ROWS=0;
 
 >* 实测百度到的上面这句指令不显示结果，你们可以自己试一试
@@ -77,9 +79,9 @@ ___
 ___
 ### Q&A
 
-　　文章有不妥的地方感谢留言指正，谢谢您！  
-　　其他知识可上网查找资料，共同学习进步。  
-　　在操作过程中或者文章有问题的话欢迎在[本文](https://liuxy0551.github.io/2018/04/Oracle11g-PLSQL-EmptyTable/) 里提问或指正。
+文章有不妥的地方感谢留言指正，谢谢您！  
+其他知识可上网查找资料，共同学习进步。  
+在操作过程中或者文章有问题的话欢迎在[本文](https://liuxy0551.github.io/2018/04/Oracle11g-PLSQL-EmptyTable/) 里提问或指正。
 
 >* 1、写这篇文章的时候发现在 Atom 中选中单词，按住 Ctrl 后按 K， 再按 U，即可将选中的单词大写
 >* 2、白天的技巧：Eclipse 中查看方法在哪里被调用了——选中方法，直接Ctrl+Shift+G或者Ctrl+Alt+H
