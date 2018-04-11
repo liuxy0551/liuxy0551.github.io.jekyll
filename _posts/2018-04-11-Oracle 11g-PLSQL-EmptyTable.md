@@ -68,12 +68,15 @@ ___
       (3)第三种：设置deferred_segment_creation 参数，该参数值默认是TRUE，当改为FALSE时，无论是空表还是非空表，都分配segment。
         （这种方法我没有试过，你可以自行尝试）
 
+    下面这个语句可在 TNS 连接不上时导入表：
+    imp scott/tiger@localhost:1521/orcl full=y  file= E:\my.dmp ignore=y;
+
 ___
 ### Q&A
 
 文章有不妥的地方感谢留言指正，谢谢您！
 其他知识可上网查找资料，共同学习进步。
-在操作过程中或者文章有问题的话欢迎在[本文](https://liuxy0551.github.io/2018/04/Oracle 11g-PLSQL-EmptyTable/) 里提问或指正。  
+在操作过程中或者文章有问题的话欢迎在[本文](https://liuxy0551.github.io/2018/04/Oracle 11g-PLSQL-EmptyTable/) 里提问或指正。
 
 <br>
 转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [Oracle 11g 数据库备份涉及的部分记忆点](https://liuxy0551.github.io/2018/04/Oracle 11g-PLSQL-EmptyTable/)
