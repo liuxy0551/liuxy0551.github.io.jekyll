@@ -77,8 +77,7 @@ ___
 [https://dl.google.com/android/ADT-23.0.2.zip](https://dl.google.com/android/ADT-23.0.2.zip)  
 [https://dl.google.com/android/ADT-23.0.0.zip](https://dl.google.com/android/ADT-23.0.0.zip)  
 
-　　启动 Eclipse，Help -> Install New Software，点击 Add… 按钮，名称可以用 ADT，然后点击 Archive 选择 ADT 的压缩包，点击 OK 选择要安装的工具，下一步。安装完成重启 Eclipse。
-　　可不进行：在 Eclipse 中点击 Window -> Preferences...，选择 Android：配置好你的 SDK 路径，则会出现刚才在 SDK 中安装的各平台包。  
+　　启动 Eclipse，Help -> Install New Software，点击 Add… 按钮，名称可以用 ADT，然后点击 Archive 选择 ADT 的压缩包，点击 OK 选择要安装的工具，下一步。安装完成重启 Eclipse。可不进行：在 Eclipse 中点击 Window -> Preferences...，选择 Android：配置好你的 SDK 路径，则会出现刚才在 SDK 中安装的各平台包。  
 
 <br>![](/images/posts/AndroidIDE/SDKLocation.png)<br>
 
