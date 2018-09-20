@@ -73,7 +73,7 @@ ___
 
     SELECT 'ALTER TABLE '||TABLE_NAME||' ALLOCATE EXTENT;' FROM USER_TABLES WHERE NUM_ROWS=0;
 
->* 实测上面百度到的这句指令不显示空表结果，你们可以自己试一试。
+>* 实测上面百度到的这句指令不显示空表结果，你可以自己试一试。
 >* 下面这个语句可在 TNS 连接不上时导入表：
 
     imp scott/tiger@localhost:1521/orcl full=y  file= E:\my.dmp ignore=y;
