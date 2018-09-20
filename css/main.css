@@ -388,7 +388,7 @@ img::-moz-selection {
 .content-wrapper {
   z-index: 800;
   width: 70%;
-  margin-left: 26%; }
+  margin-left: 27%; }
 
 .content-wrapper__inner {
   /*margin: 0 10%;*/
@@ -716,9 +716,9 @@ nav {
 
 .btn, .navigation__item a {
   display: inline-block;
-  margin-right: 0px;
+  margin-right: 0;
   padding: 5px 5px 5px 5px;
-  font-size: 1em;
+  font-size: 0.7em;
   text-shadow: none;
   color: #BF1827;
 }
