@@ -5,7 +5,7 @@ description: 欢迎来到我的个人站~
 # 头像里面的标题
 avatarTitle: liuxy0551
 # 头像里面的描述
-avatarDesc: 平平静静的一个人
+avatarDesc: 体会生活，感受技术
 url: "https://liuxy0551.github.io/"
 
 # Comment
@@ -50,6 +50,7 @@ nav:
     - {title: 所有文章, description: archive, url: '/archive'}
     - {title: 标签, description: tags, url: '/tags'}
     - {title: 关于我, description: about, url: '/about'}
+
 
 
 # Pagination
