@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Ionic 3 + Angularjs 4.x + Cordova 混合开发项目小战
+title: Ionic 3 + AngularJS 4.x + Cordova 混合开发项目小战
 date: 2018-03-05
-tag: Ionic3, Angularjs 4.x, Cordova
+tag: AngularJS
 ---
 
 ___
-##### 　　在实习过程中因项目组需要，学习了一段时间的混合开发，工银系统新版APP的部分开发工作。主要是利用 Ionic 3 + Angularjs 4.x +
+##### 　　在实习过程中因项目组需要，学习了一段时间的混合开发，工银系统新版APP的部分开发工作。主要是利用 Ionic 3 + AngularJS 4.x +
 
 ##### Cordova  混合开发这个项目，做的是一些基本工作，记录一下。内容很多，学会的也很多，记录下来的是一些此时觉得比较常用的知识点。
 
@@ -17,7 +17,7 @@ ___
 　　2、安装编辑器： webstorm（个人推荐）或 VS Code，2 和 3中的具体步骤可自行百度；  
 　　3、安装最新版本的 node js，运行命令 node -v 和 npm -v， 来验证一下你正在运行的是 node 6.9.x 和 npm 3.x.x 以上的版本。  
 
-### 二、了解 Angularjs
+### 二、了解 AngularJS
 
 #### 全局安装 Angular CLI 脚手架工具(只需要安装一次)
 
@@ -96,4 +96,4 @@ ___
 在操作过程中或者文章有问题的话欢迎在[本文](https://liuxy0551.github.io/2018/03/Ionic3+Angular4.x+Cordova/) 里提问或指正。
 
 <br>
-转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [Ionic 3 + Angularjs 4.x + Cordova 混合开发项目小战](https://liuxy0551.github.io/2018/03/Ionic3+Angular4.x+Cordova/)
+转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [Ionic 3 + AngularJS 4.x + Cordova 混合开发项目小战](https://liuxy0551.github.io/2018/03/Ionic3+Angular4.x+Cordova/)

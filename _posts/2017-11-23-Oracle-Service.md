@@ -2,7 +2,7 @@
 layout: post
 title: 如何快速开启和关闭 Orcale 所需的服务
 date: 2017-11-23
-tag: Oracle，服务
+tag: Oracle
 ---
 
 ___
