@@ -13,7 +13,7 @@ title : 关于我
 
 想在体会生活的同时，好好感受这些吸引人却又不简单的代码。
 
-博客源码在[我的 Github](https://github.com/liuxy0551/liuxy0551.github.io)上可以找到，你可以更改部分文件使之成为你的博客~
+博客源码在我的 [Github](https://github.com/liuxy0551/liuxy0551.github.io) 上可以找到，你可以更改部分文件使之成为你的博客~
 
 <p><p>
 你可以通过以下方法联系我
