@@ -15,13 +15,7 @@ title : 关于我
 
 博客源码在我的 [Github](https://github.com/liuxy0551/liuxy0551.github.io) 上可以找到，你可以更改部分文件使之成为你的博客，但请保留原作者 [leopardpan](https://github.com/leopardpan/leopardpan.github.io) 的信息~
 
-<p><p>
+
 你可以通过以下方法联系我
-<p>
-我的邮箱：liuxy0551@qq.com       
 
-<br><br> 
-我的QQ：1820995742（请备注：博客）
-<p>
-
-<p>
+我的邮箱：liuxy0551@qq.com　　我的QQ：1820995742（请备注：博客）
