@@ -68,7 +68,6 @@ ___
 
 　　(3)第三种：设置deferred_segment_creation 参数，该参数值默认是TRUE，当改为FALSE时，无论是空表还是非空表，都分配segment。
     （这种方法我没有试过，你可以自行尝试）
-
     <br>
 
     SELECT 'ALTER TABLE '||TABLE_NAME||' ALLOCATE EXTENT;' FROM USER_TABLES WHERE NUM_ROWS=0;
