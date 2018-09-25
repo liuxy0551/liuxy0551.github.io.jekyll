@@ -21,10 +21,10 @@ ___
 周期中有很多钩子函数提供给我们在 Vue 生命周期不同时刻进行操作。我们先在图上确认所有的生命周期函数，然后再依次理解。
 
 
->* beforeCreate、created         创建前后
->* beforeMount、mounted          挂载前后
->* beforeUpdate、updated         数据更新前后
->* beforeDestroy、destroyed      页面销毁前后
+>* beforeCreate、created　　　　　　　　　　创建前后
+>* beforeMount、mounted　　　　　　　　　挂载前后
+>* beforeUpdate、updated　　　　　　　　　数据更新前后
+>* beforeDestroy、destroyed　　　　　　　　 页面销毁前后
 
 
 <br>
