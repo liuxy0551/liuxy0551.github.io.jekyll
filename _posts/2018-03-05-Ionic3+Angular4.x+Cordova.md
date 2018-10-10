@@ -91,9 +91,9 @@ ionic 3 新建组件的命令：ionic g page 组件名，如：
 ___
 ### Q&A
 
-文章有不妥的地方感谢留言指正，谢谢您！  
+随笔有不妥的地方感谢留言指正，谢谢您！  
 其他知识可上网查找资料，共同学习进步。  
-在操作过程中或者文章有问题的话欢迎在[本文](https://liuxy0551.github.io/2018/03/Ionic3+Angular4.x+Cordova/) 里提问或指正。
+在操作过程中或者随笔有问题的话欢迎在[Ionic 3 + AngularJS 4.x + Cordova 混合开发项目小战](https://liuxy0551.github.io/2018/03/Ionic3+Angular4.x+Cordova/) 里提问或指正。
 
 <br>
 转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [Ionic 3 + AngularJS 4.x + Cordova 混合开发项目小战](https://liuxy0551.github.io/2018/03/Ionic3+Angular4.x+Cordova/)
