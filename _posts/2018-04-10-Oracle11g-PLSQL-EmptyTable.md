@@ -75,6 +75,8 @@ ___
 >* 实测上面百度到的这句指令不显示空表结果，你可以自己试一试。
 >* 下面这个语句可在 TNS 连接不上时导入表：
 
+<br>
+
     imp scott/tiger@localhost:1521/orcl full=y  file= E:\my.dmp ignore=y;
 
 ___
