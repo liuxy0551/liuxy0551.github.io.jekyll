@@ -112,13 +112,10 @@ ___
 ___
 ### Q&A
 
-随笔有不妥的地方感谢留言指正，谢谢您！
-其他知识可上网查找资料，共同学习进步。
-在操作过程中或者随笔有问题的话欢迎在[在 VMware 中安装 MacOS High Sierra 10.13](https://liuxy0551.github.io/2017/05/Oracle-Service/) 里提问或指正。
-
->* 1、通过 bat 文件启动服务后需要等待 20~60 秒后才能登录，由电脑性能决定；
->* 2、类似的，MySQL的服务也可以这么解决，VMware也可以。
-
+随笔有不妥的地方感谢留言指正，谢谢您！  
+其他知识可上网查找资料，共同学习进步。  
+在操作过程中或者随笔有问题的话欢迎在[在 VMware 中安装 MacOS High Sierra 10.13](https://liuxy0551.github.io/2018/10/VMware+MacOS/) 里提问或指正。
 
 <br>
-转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [在 VMware 中安装 MacOS High Sierra 10.13](https://liuxy0551.github.io/2017/11/Oracle-Service/)
+
+转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [在 VMware 中安装 MacOS High Sierra 10.13](https://liuxy0551.github.io/2018/10/VMware+MacOS/)
