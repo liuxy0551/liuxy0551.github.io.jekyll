@@ -114,7 +114,7 @@ ___
 
 随笔有不妥的地方感谢留言指正，谢谢您！  
 其他知识可上网查找资料，共同学习进步。  
-在操作过程中或者随笔有问题的话欢迎在[在 VMware 中安装 MacOS High Sierra 10.13](https://liuxy0551.github.io/2018/10/VMware+MacOS/) 里提问或指正。
+在操作过程中或者随笔有问题的话欢迎在[在 VMware 中安装 MacOS High Sierra 10.13](https://liuxy0551.github.io/2018/10/VMware+MacOS/) 里提问或指正，或者从[关于我](https://liuxy0551.github.io/about/)中可以找到我的联系方式。
 
 <br>
 
