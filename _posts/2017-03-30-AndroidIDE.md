@@ -6,8 +6,7 @@ tag: Android
 ---
 
 ___
-##### 　　在Windows下安装Android的开发环境虽说不简单但也算不上复杂，本篇经验写给同为小白的朋友们,随笔步骤经作者测试正确可行，  
-##### 希望对准备进入Android开发的你有所帮助。
+##### 　　在Windows下安装Android的开发环境虽说不简单但也算不上复杂，本篇经验写给同为小白的朋友们,随笔步骤经作者测试正确可行，希望对准备进入Android开发的你有所帮助。
 
 ##### 　　更新日期：2018-04-20
 ##### 　　更新内容：更换配图；调整排版，将一些可能不会遇到的问题放置于较后的位置；更改部分措辞。
@@ -55,8 +54,7 @@ ___
 
 #### 2、安装
 
-　　下载完成后双击“installer_r24.4.1-windows.exe”，选择解压文件夹，完成后双击“SDK Manager”，加载可安装的安卓版本。
-　　下面是我的一些安装选项，仅供参考：
+　　下载完成后双击“installer_r24.4.1-windows.exe”，选择解压文件夹，完成后双击“SDK Manager”，加载可安装的安卓版本。下面是我的一些安装选项，仅供参考：
 
 　　![](/images/posts/AndroidIDE/AndroidList1.png)
 　　![](/images/posts/AndroidIDE/AndroidList2.png)
@@ -99,7 +97,8 @@ ___
 
 #### (2).将SDK Manage上的https请求更改成http请求
 
-　　打开 SDK Manager，Tools -> Options，勾选 Force https://..sources to be fetched using http://... ，如图。退出重新打开 SDK Manager，一般情况下就可以正常加载了
+　　打开 SDK Manager，Tools -> Options，勾选 Force https://..sources to be fetched using http://... ，如图。退出重新打开 SDK Manager，一般情况下就可以正常加载了。
+
 ___
 ### Q&A
 
