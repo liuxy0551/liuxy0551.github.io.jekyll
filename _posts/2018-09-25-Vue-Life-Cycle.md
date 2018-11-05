@@ -30,75 +30,119 @@ ___
 <br>
 ### 二、实际运行
 
-#### 复制下面的代码，找一个可以在线运行 js 代码的网站粘贴运行，看看 console 打印的内容，便于理解生命周期的实际流程。
+##### 　　复制下面的代码，找一个可以在线运行 js 代码的网站粘贴运行，看看 console 打印的内容，便于理解生命周期的实际流程。
 
-1、在原先正常的电脑上使用 PL SQL 12 导出 32 个表，为 .dmp 格式文件，并在新电脑进行导入表的操作  
-2、弹出一个窗口后秒关，尝试通过截图快捷键截图查看，以失败告终，请教项目组上的数据库老师后知道了这是缺少表空间的缘故，之后   就是各种恶补表空间知识。  
-3、在 PLSQL 中新建 SQL 窗口，键入以下语句并执行：
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>vue生命周期学习</title>
+      <script src="https://cdn.bootcss.com/vue/2.4.2/vue.js"></script>
+    </head>
+    <body>
+      <div id="app">
+        <h1>{{message}}</h1>
+      </div>
+    </body>
+    <script>
+      var vm = new Vue({
+        el: '#app',
+        data: {
+          message: 'Vue的生命周期'
+        },
+        beforeCreate: function() {
+          console.group('------beforeCreate创建前状态------');
+          console.log("%c%s", "color:red" , "el     : " + this.$el); //undefined
+          console.log("%c%s", "color:red","data   : " + this.$data); //undefined 
+          console.log("%c%s", "color:red","message: " + this.message) 
+        },
+        created: function() {
+          console.group('------created创建完毕状态------');
+          console.log("%c%s", "color:red","el     : " + this.$el); //undefined
+          console.log("%c%s", "color:red","data   : " + this.$data); //已被初始化 
+          console.log("%c%s", "color:red","message: " + this.message); //已被初始化
+        },
+        beforeMount: function() {
+          console.group('------beforeMount挂载前状态------');
+          console.log("%c%s", "color:red","el     : " + (this.$el)); //已被初始化
+          console.log(this.$el);
+          console.log("%c%s", "color:red","data   : " + this.$data); //已被初始化  
+          console.log("%c%s", "color:red","message: " + this.message); //已被初始化  
+        },
+        mounted: function() {
+          console.group('------mounted 挂载结束状态------');
+          console.log("%c%s", "color:red","el     : " + this.$el); //已被初始化
+          console.log(this.$el);    
+          console.log("%c%s", "color:red","data   : " + this.$data); //已被初始化
+          console.log("%c%s", "color:red","message: " + this.message); //已被初始化 
+        },
+        beforeUpdate: function () {
+          console.group('beforeUpdate 更新前状态===============》');
+          console.log("%c%s", "color:red","el     : " + this.$el);
+          console.log(this.$el);   
+          console.log("%c%s", "color:red","data   : " + this.$data); 
+          console.log("%c%s", "color:red","message: " + this.message); 
+        },
+        updated: function () {
+          console.group('updated 更新完成状态===============》');
+          console.log("%c%s", "color:red","el     : " + this.$el);
+          console.log(this.$el); 
+          console.log("%c%s", "color:red","data   : " + this.$data); 
+          console.log("%c%s", "color:red","message: " + this.message); 
+        },
+        beforeDestroy: function () {
+          console.group('beforeDestroy 销毁前状态===============》');
+          console.log("%c%s", "color:red","el     : " + this.$el);
+          console.log(this.$el);    
+          console.log("%c%s", "color:red","data   : " + this.$data); 
+          console.log("%c%s", "color:red","message: " + this.message); 
+        },
+        destroyed: function () {
+          console.group('destroyed 销毁完成状态===============》');
+          console.log("%c%s", "color:red","el     : " + this.$el);
+          console.log(this.$el);  
+          console.log("%c%s", "color:red","data   : " + this.$data); 
+          console.log("%c%s", "color:red","message: " + this.message)
+        }
+      })
+    </script>
+    </html>
 
-    CREATE TABLESPACE OP
-    LOGGING
-    DATAFILE 'D:\Oracle\product\11.2.0\OP.DBF'
-    SIZE 50M
-    AUTOEXTEND ON
-    NEXT 32M MAXSIZE UNLIMITED
-    EXTENT MANAGEMENT LOCAL;
+　　运行后打开调试查看 console 打印的内容，可以看到：
 
-　　其中第三行语句含有表空间的存放位置，建议放在 Oracle 的安装目录里面，防止误删除。OP 为表空间名字，其他行语句想了解的可自行百度具体含义。删除已经使用的表空间会使得对应的用户无法登录使用，我是重装 Oracle 解决的，就是这么低技术含量，幸好是没有什么重要数据。可以删除表空间后再删除这个 .DBF 文件，删除语句如下：
+　　![](/images/posts/Vue-Life-Cycle/console.png)
 
-    DROP TABLESPACE OP;
-
-### 三、解决空表不导出的方法
-
-1、在数据导出的时候，无法导出空表，提示错误“EXP-00011：table 不存在”。
-产生原因：Oracle 11g 默认创建一个表时不分配 segment，只有在插入数据时才会产生（当然也可以强制分配），以节省磁盘空间。
-
-2、解决方法：  
-　　(1)第一种：在空表中插入一条数据然后再对插入的数据进行删除，便可以进行数据导出（我的那几个表添加假数据很难，如果表少的话可以手动执行，对于多个表的情况可以采用语句进行批量操作的）。  
-　　(2)第二种：可以使用手工为空表分配 Extent 的方式，来解决导出之前建立的空表的问题。在 PLSQL 中新建 SQL 窗口，键入以下语句并执行：
-
-    SELECT 'ALTER TABLE '||TABLE_NAME||' ALLOCATE EXTENT;' FROM USER_TABLES WHERE SEGMENT_CREATED='NO';
-
-![](/images/posts/Oracle-PLSQL/result.png)<br>
-
-可以通过语句导出查询结果，执行导出的语句即可（表数量少的话可以复制粘贴执行查询结果）。
-
-<br>![](/images/posts/Oracle-PLSQL/yuju.png)
-
-    set heading off;
-    set echo off;
-    set feedback off;
-    set termout on;
-    spool D:\Oracle\product\11.2.0\allocate.sql;
-    SELECT 'ALTER TABLE '||TABLE_NAME||' ALLOCATE EXTENT;' FROM USER_TABLES WHERE SEGMENT_CREATED='NO';
-    spool off;
+　　这样可以较为清晰地看到一个 Vue 示例在创建过程中调用的几个生命周期钩子函数。
 
 
-导出后执行导出的语句：
+### 三、钩子函数解析
 
-    @ D:\Oracle\product\11.2.0\allocate.sql;
+　　Vue 实例有一个完整的生命周期，也就是从开始创建、初始化数据、编译模板、挂载 Dom、渲染 → 更新 → 渲染、销毁等一系列过程，我们称这是 Vue 的生命周期，通俗说就是 Vue 实例从创建到销毁的过程。
+每一个组件或者实例都会经历一个完整的生命周期，总共分为三个阶段：初始化、运行中、销毁。
 
-　　(3)第三种：设置deferred_segment_creation 参数，该参数值默认是TRUE，当改为FALSE时，无论是空表还是非空表，都分配segment。
-    （这种方法我没有试过，你可以自行尝试）
+　　1、**beforeCreate 和 created：**在这两个生命周期之间，进行初始化事件，进行数据的观测，可以看到在 created 的时候数据已经和 data 属性进行绑定（放在 data 中的属性当值发生改变的同时，视图也会改变）；
 
-    <br>
+　　3、**beforeMount：**接下来开始找实例或者组件对应的模板，编译模板为虚拟 Dom 放入到渲染函数中准备渲染，然后执行 beforeMount 钩子函数，在这个函数中虚拟 Dom 已经创建完成，马上就要渲染，在这里也可以更改数据，
+不会触发 updated，在这里可以在渲染前最后一次更改数据的机会，不会触发其他的钩子函数，一般可以在这里做初始数据的获取；
 
-    SELECT 'ALTER TABLE '||TABLE_NAME||' ALLOCATE EXTENT;' FROM USER_TABLES WHERE NUM_ROWS=0;
+　　4、**mounted：**接下来开始渲染，渲染出真实 Dom，然后执行 mounted 钩子函数，此时组件已经出现在页面中，数据、真实 Dom 都已经处理好了,事件都已经挂载好了，可以在这里操作真实 Dom 等事情；
 
->* 实测上面百度到的这句指令不显示空表结果，你可以自己试一试。
->* 下面这个语句可在 TNS 连接不上时导入表：
+　　5、**beforeUpdate 和 updated：**当 Vue 发现 data 中的数据发生了改变，会触发对应组件的重新渲染，先后调用 beforeUpdate 和 updated 钩子函数；
 
-    imp scott/tiger@localhost:1521/orcl full=y  file= E:\my.dmp ignore=y;
+　　7、**beforeDestroy：**在实例销毁之前使用，在这一步，实例仍然完全可用；
 
+　　8、**destroyed：**在 Vue 实例销毁后调用，Vue 实例指示的所有东西都会解绑定，所有的事件监听器会被移除，所有的子实例也会被销毁。
+
+　　只需要记住在 Vue 的生命周期里有哪些钩子函数，它们分别是在什么情况下会被调用，以及其中的一些原理即可。
 ___
 ### Q&A
 
 随笔有不妥的地方感谢留言指正，谢谢您！  
 其他知识可上网查找资料，共同学习进步。  
-在操作过程中或者随笔有问题的话欢迎在[Vue 生命周期](https://liuxy0551.github.io/2018/09/Vue-Life-Cycle/) 里提问或指正，或者从[关于我](https://liuxy0551.github.io/about/)中可以找到我的联系方式。
+在操作过程中或者随笔有问题的话欢迎在 [Vue 生命周期](https://liuxy0551.github.io/2018/09/Vue-Life-Cycle/) 里提问或指正，或者从 [关于我](https://liuxy0551.github.io/about/) 中可以找到我的联系方式。
 
->* 1、写这篇随笔的时候发现在 Atom 中选中单词，按住 Ctrl 后按 K， 再按 U，即可将选中的单词大写
->* 2、白天的技巧：Eclipse 中查看方法在哪里被调用了——选中方法，直接Ctrl+Shift+G或者Ctrl+Alt+H
 
 <br>
 转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [Vue 生命周期](https://liuxy0551.github.io/2018/09/Vue-Life-Cycle/)
