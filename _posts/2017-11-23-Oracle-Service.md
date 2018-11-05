@@ -99,7 +99,7 @@ ___
 
 随笔有不妥的地方感谢留言指正，谢谢您！  
 其他知识可上网查找资料，共同学习进步。  
-在操作过程中或者随笔有问题的话欢迎在[如何快速开启和关闭 Orcale 所需的服务](https://liuxy0551.github.io/2017/05/Oracle-Service/) 里提问或指正，或者从[关于我](https://liuxy0551.github.io/about/)中可以找到我的联系方式。 
+在操作过程中或者随笔有问题的话欢迎在 [如何快速开启和关闭 Orcale 所需的服务](https://liuxy0551.github.io/2017/05/Oracle-Service/) 里提问或指正，或者从 [关于我](https://liuxy0551.github.io/about/) 中可以找到我的联系方式。 
 
 >* 1、通过 bat 文件启动服务后需要等待 20~60 秒后才能登录，由电脑性能决定；
 >* 2、类似的，MySQL的服务也可以这么解决，VMware也可以。
