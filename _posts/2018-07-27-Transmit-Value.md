@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Vue 编程之路（二）——跳转页面传值
-date: 2018-07-26
+date: 2018-07-27
 tag: Vue
 ---
 
