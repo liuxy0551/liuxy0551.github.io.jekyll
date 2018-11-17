@@ -13,7 +13,7 @@ ___
 ### 一、实现效果
 
 <center>
-    <iframe width="500" height="400" src="/images/posts/Vue-MintUI-Address/1.mp4" allowfullscreen></iframe>
+    <iframe width="300" height="400" src="/images/posts/Vue-MintUI-Address/1.mp4" allowfullscreen></iframe>
 </center>
 <br>
 
