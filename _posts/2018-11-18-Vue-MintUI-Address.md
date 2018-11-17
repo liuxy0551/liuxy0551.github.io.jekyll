@@ -27,6 +27,8 @@ ___
 
 4、[pca-code.json](https://pan.baidu.com/s/1aloBMULP6uWG4doVTnEKlg)链接:[https://pan.baidu.com/s/1aloBMULP6uWG4doVTnEKlg](https://pan.baidu.com/s/1aloBMULP6uWG4doVTnEKlg)  密码:53bv
 
+5、[这篇随笔的代码](https://pan.baidu.com/s/1AruFayYeUqi5_saqjVBPYw)链接:[https://pan.baidu.com/s/1AruFayYeUqi5_saqjVBPYw](https://pan.baidu.com/s/1AruFayYeUqi5_saqjVBPYw)  密码:31c9
+
 ### 二、具体实现
 
 #### 1、HTML 部分
