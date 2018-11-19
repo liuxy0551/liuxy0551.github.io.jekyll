@@ -53,7 +53,7 @@ ___
     
 ![](/images/posts/Vue-MintUI-DatetimePicker/2.gif)
 
-#### 3、引用的知识
+#### 3、引入 Moment.js
 
 　　随笔中的代码涉及了 Moment.js，这是一个用来格式化时间的 js 插件，比如下图的时间不便于前端使用，则可以通过 Moment.js 将其转化为 `2018-11-19` 等格式的时间。
 
@@ -75,6 +75,7 @@ ___
 
     let date = moment(new Date("1901-01-01")).format("YYYY-MM-DD HH:mm:ss");
     let now = moment(new Date()).format("YYYY-MM-DD HH:mm:ss");
+    
     console.log(date);        // 1901-01-01 08:00:00
     console.log(now);         // 2018-11-19 19:20:06
 
