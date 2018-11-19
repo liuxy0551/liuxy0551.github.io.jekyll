@@ -16,7 +16,7 @@ ___
 
 ![](/images/posts/Vue-MintUI-DatetimePicker/1.gif)
 
-　　官网上给出了一些 API 文档，但是 Mint UI 的文档写的真心不怎么样，这里分享一下 Mint UI 的源码，这里是 [Datetime picker](https://github.com/ElemeFE/mint-ui/blob/master/example/pages/datetime-picker.vue) 的源码。
+　　官网上给出了一些 API 文档，但是 [Mint UI 的文档](https://mint-ui.github.io/docs/#/zh-cn2/datetime-picker) 写的真心不怎么样，这里分享一下 Mint UI 的源码，这里是 [Datetime picker](https://github.com/ElemeFE/mint-ui/blob/master/example/pages/datetime-picker.vue) 的源码。
 
 ![](/images/posts/Vue-MintUI-DatetimePicker/3.png)
 
@@ -36,7 +36,7 @@ ___
                  :startDate="startDate" :endDate="endDate" @confirm="handleChange">
     </mt-datetime-picker>
     
-　　v-model="user.usbirthday" 中的 user.usbirthday 可以设置成 `this.user.usbirthday = 1995-01-01`。
+　　v-model="user.usbirthday"中的 user.usbirthday 可以设置成 `this.user.usbirthday = 1995-01-01`。
 
 ![](/images/posts/Vue-MintUI-DatetimePicker/6.png)
 
