@@ -12,10 +12,7 @@ ___
 
 ### 一、实现效果
 
-<center>
-    <iframe width="300" height="400" src="/images/posts/Vue-MintUI-Address/1.mp4" allowfullscreen></iframe>
-</center>
-<br>
+![](/images/posts/Vue-MintUI-Address/7.gif)
 
 　　功能的实现参考了部分资料：
 
