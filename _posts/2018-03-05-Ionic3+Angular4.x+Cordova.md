@@ -88,6 +88,9 @@ ionic 3 新建组件的命令：ionic g page 组件名，如：
 <br>![](/images/posts/Ionic3+Angular4.x+Cordova/2.png)
 <br>![](/images/posts/Ionic3+Angular4.x+Cordova/3.png)
 
+
+#### 以上
+
 ___
 ### Q&A
 

@@ -99,6 +99,9 @@ ___
 
 　　打开 SDK Manager，Tools -> Options，勾选 Force https://..sources to be fetched using http://... ，如图。退出重新打开 SDK Manager，一般情况下就可以正常加载了。
 
+
+#### 以上
+
 ___
 ### Q&A
 
