@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Vue 移动端项目的一些 UI 记录
+title: Vue 移动端项目的一些 UI 框架
 date: 2019-02-14
 tag: Vue
 ---
@@ -24,7 +24,7 @@ ___
 
 
    <br>
-　　3、Vonic —— 是一个基于 Vue 和 ionic CSS 的 UI 框架 `star 3.0k`  
+　　3、Vonic —— 是一个基于 Vue 和 ionic CSS 的 UI 框架 `star 3.0k`
 　　用于快速构建移动端单页应用，因为实习时写 Angular 搭配过 ionic，所以对这个 UI 框架有更多熟悉的感觉
 
 　　[中文文档](https://wangdahoo.github.io/vonic-documents/#/) [Github 地址](https://github.com/wangdahoo/vonic)
@@ -68,8 +68,8 @@ ___
 
 随笔有不妥的地方感谢留言指正，谢谢您！  
 其他知识可上网查找资料，共同学习进步。  
-在操作过程中或者随笔有问题的话欢迎在 [Vue 移动端项目的一些 UI 选项](https://liuxy0551.github.io/2019/02/Vue-Mobile-UI/) 里提问或指正，或者从 [关于我](https://liuxy0551.github.io/about/) 中可以找到我的联系方式。
+在操作过程中或者随笔有问题的话欢迎在 [Vue 移动端项目的一些 UI 框架](https://liuxy0551.github.io/2019/02/Vue-Mobile-UI/) 里提问或指正，或者从 [关于我](https://liuxy0551.github.io/about/) 中可以找到我的联系方式。
 
 
 <br>
-转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [Vue 移动端项目的一些 UI 选项](https://liuxy0551.github.io/2019/02/Vue-Mobile-UI/)
+转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [Vue 移动端项目的一些 UI 框架](https://liuxy0551.github.io/2019/02/Vue-Mobile-UI/)
