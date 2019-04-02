@@ -24,10 +24,12 @@ ___
 
 　　3、可多参考 [ECharts 的配置项文档](https://echarts.baidu.com/option.html) 来进行颜色、文字等样式的改动
 
-<br>
-### 三、世界地图的组件代码（已省略部分国家数据，可在源文件中复制）
+　　4、import '../../../../node_modules/echarts/map/js/china.js' 引入 ECharts 自带的 China、world 等文件时，注意引入的路径
 
-　　[世界地图源文件](https://www.echartsjs.com/tutorial.html)
+<br>
+### 三、世界地图的组件代码（已省略部分国家数据，可在代码文件中复制）
+
+　　[世界-代码文件](https://github.com/liuxy0551/liuxy0551.github.io/blob/master/images/posts/ECharts/world.vue)
 
     <template>
       <div class="echarts-box">
@@ -186,9 +188,9 @@ ___
     </style>
 
 <br>
-### 四、中国地图的组件代码（已省略部分省份数据，可在源文件中复制）
+### 四、中国地图的组件代码（已省略部分省份数据，可在代码文件中复制）
 
-　　[中国地图源文件](https://www.echartsjs.com/tutorial.html)
+　　[中国-代码文件](https://github.com/liuxy0551/liuxy0551.github.io/blob/master/images/posts/ECharts/China.vue)
 
     <template>
       <div class="echarts-box">
@@ -197,100 +199,100 @@ ___
     </template>
 
     <script>
-    import ECharts from 'vue-echarts'
-    import '../../../../node_modules/echarts/map/js/china.js'
+      import ECharts from 'vue-echarts'
+      import '../../../../node_modules/echarts/map/js/china.js'
 
-    export default {
-      name: 'DailyActiveChart',
-      components: { ECharts },
-      data () {
-        return {
-          polar: {
-            title: {
-              text: '校友中国分布地图'
-            },
-            tooltip: {}, // 鼠标移到图里面的浮动提示框
-            dataRange: {
-              show: true,
-              min: 0,
-              max: 1000,
-              text: ['High', 'Low'],
-              realtime: true,
-              calculable: true
-            },
-            geo: { // 这个是重点配置区
-              map: 'china', // 表示中国地图
-              roam: true,
-              label: {
-                normal: {
-                  show: true, // 是否显示对应地名
-                  textStyle: {
-                    color: 'rgba(0,0,0,0.4)'
+      export default {
+        name: 'DailyActiveChart',
+        components: { ECharts },
+        data () {
+          return {
+            polar: {
+              title: {
+                text: '校友中国分布地图'
+              },
+              tooltip: {}, // 鼠标移到图里面的浮动提示框
+              dataRange: {
+                show: true,
+                min: 0,
+                max: 1000,
+                text: ['High', 'Low'],
+                realtime: true,
+                calculable: true
+              },
+              geo: { // 这个是重点配置区
+                map: 'china', // 表示中国地图
+                roam: true,
+                label: {
+                  normal: {
+                    show: true, // 是否显示对应地名
+                    textStyle: {
+                      color: 'rgba(0,0,0,0.4)'
+                    }
+                  }
+                },
+                itemStyle: {
+                  normal: {
+                    borderColor: 'rgba(0, 0, 0, 0.2)'
+                  },
+                  emphasis: {
+                    areaColor: null,
+                    shadowOffsetX: 0,
+                    shadowOffsetY: 0,
+                    shadowBlur: 20,
+                    borderWidth: 0,
+                    shadowColor: 'rgba(0, 0, 0, 0.5)'
                   }
                 }
               },
-              itemStyle: {
-                normal: {
-                  borderColor: 'rgba(0, 0, 0, 0.2)'
-                },
-                emphasis: {
-                  areaColor: null,
-                  shadowOffsetX: 0,
-                  shadowOffsetY: 0,
-                  shadowBlur: 20,
-                  borderWidth: 0,
-                  shadowColor: 'rgba(0, 0, 0, 0.5)'
-                }
-              }
-            },
-            series: [{
-              type: 'scatter',
-              coordinateSystem: 'geo' // 对应上方配置
-            },
-            {
-              name: '启动次数', // 浮动框的标题
-              type: 'map',
-              geoIndex: 0,
-              data: [{
-                name: '北京',
-                value: 599
-              }, {
-                name: '上海',
-                value: 142
-              }, {
-                name: '黑龙江',
-                value: 44
-              }, {
-                name: '深圳',
-                value: 92
-              }, {
-                name: '湖北',
-                value: 810
-              }, {
-                name: '四川',
-                value: 453
-              }] // 这里就是数据，即数组可以单独放在外面也可以直接写
-            }]
+              series: [{
+                type: 'scatter',
+                coordinateSystem: 'geo' // 对应上方配置
+              },
+                {
+                  name: '启动次数', // 浮动框的标题
+                  type: 'map',
+                  geoIndex: 0,
+                  data: [{
+                    name: '北京',
+                    value: 599
+                  }, {
+                    name: '上海',
+                    value: 142
+                  }, {
+                    name: '黑龙江',
+                    value: 44
+                  }, {
+                    name: '深圳',
+                    value: 92
+                  }, {
+                    name: '湖北',
+                    value: 810
+                  }, {
+                    name: '四川',
+                    value: 453
+                  }] // 这里就是数据，即数组可以单独放在外面也可以直接写
+                }]
+            }
           }
-        }
-      },
-      methods: {
-        // 双击事件
-        dblClick (v) {
-          console.log(v)
         },
-        // 单击事件
-        doClick (v) {
-          console.log(v)
+        methods: {
+          // 双击事件
+          dblClick (v) {
+            console.log(v)
+          },
+          // 单击事件
+          doClick (v) {
+            console.log(v)
+          }
+        },
+        mounted () {
+          this.polar.series[1].data.push({
+            name: '浙江',
+            value: 324
+          })
         }
-      },
-      mounted () {
-        this.polar.series[1].data.push({
-          name: '浙江',
-          value: 324
-        })
       }
-    }
     </script>
 
     <style lang="scss" scoped>
@@ -305,6 +307,7 @@ ___
         }
       }
     </style>
+
 
 
 #### 以上
