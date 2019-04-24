@@ -13,24 +13,20 @@ ___
 　　小程序是基于腾讯官方 WePY 框架来实现的，但是由于小程序技术生态比较闭合，导致很多前端框架积累出的成果都没有实现。
 
 　　filter 可以理解为管道加工处理，接收一组数据，经过各种不同类型的管道加工，产出新的数据，但是又不会影响原有数据，最终展示给用户。
-
+<br><br>
 
 ### 一、现有前端框架的 filter
 
-    <div>{{demo.time | date}}</div>
+　　![](/images/posts/Vue-WePY-filter/3.png)
     
-    <div>{{demo.price | money}}</div>
-    
-    
-　　在后端同学没有返回适合显示的数据或者不方便处理数据时，可以在前端使用过滤器处理，上述对时间和金额进行处理，使用 | 作为管道符，传递参数进行序列化。
-    
-
+　　在后端同学没有返回适合显示的数据或者不方便处理数据时，可以在前端使用过滤器处理，上述对时间和金额进行处理，使用 `|` 作为管道符，传递参数进行序列化。
+   
 
 ### 二、小程序中过滤器的使用
 
-![](/images/posts/Vue-WePY-filter/2.png)
+　　![](/images/posts/Vue-WePY-filter/2.png)
 
-![](/images/posts/Vue-WePY-filter/1.png)
+　　![](/images/posts/Vue-WePY-filter/1.png)
 
 　　上图是小程序对金额的处理效果
 
