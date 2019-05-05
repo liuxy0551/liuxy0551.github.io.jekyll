@@ -47,11 +47,11 @@ ___
 
     SELECT 'ALTER TABLE '||TABLE_NAME||' ALLOCATE EXTENT;' FROM USER_TABLES WHERE SEGMENT_CREATED='NO';
 
-![](/images/posts/Oracle-PLSQL/result.png)<br>
+![](/images/posts/Oracle_PLSQL/result.png)<br>
 
 可以通过语句导出查询结果，执行导出的语句即可（表数量少的话可以复制粘贴执行查询结果）。
 
-<br>![](/images/posts/Oracle-PLSQL/yuju.png)
+<br>![](/images/posts/Oracle_PLSQL/yuju.png)
 
     set heading off;
     set echo off;
@@ -87,10 +87,10 @@ ___
 
 随笔有不妥的地方感谢留言指正，谢谢您！  
 其他知识可上网查找资料，共同学习进步。  
-在操作过程中或者随笔有问题的话欢迎在 [Oracle 11g 数据库备份涉及的部分记忆点](https://liuxy0551.github.io/2018/04/Oracle11g-PLSQL-EmptyTable/) 里提问或指正，或者从 [关于我](https://liuxy0551.github.io/about/) 中可以找到我的联系方式。
+在操作过程中或者随笔有问题的话欢迎在 [Oracle 11g 数据库备份涉及的部分记忆点](https://liuxy0551.github.io/2018/04/Oracle11g_PLSQL_EmptyTable/) 里提问或指正，或者从 [关于我](https://liuxy0551.github.io/about/) 中可以找到我的联系方式。
 
 >* 1、写这篇随笔的时候发现在 Atom 中选中单词，按住 Ctrl 后按 K， 再按 U，即可将选中的单词大写
 >* 2、白天的技巧：Eclipse 中查看方法在哪里被调用了——选中方法，直接Ctrl+Shift+G或者Ctrl+Alt+H
 
 <br>
-转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [Oracle 11g 数据库备份涉及的部分记忆点](https://liuxy0551.github.io/2018/04/Oracle11g-PLSQL-EmptyTable/)
+转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [Oracle 11g 数据库备份涉及的部分记忆点](https://liuxy0551.github.io/2018/04/Oracle11g_PLSQL_EmptyTable/)

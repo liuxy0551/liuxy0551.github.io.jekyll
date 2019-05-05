@@ -14,7 +14,7 @@ ___
 
 ### 一、生命周期图示
 
-　　![](/images/posts/Vue-Life-Cycle/lifecycle.png)
+　　![](/images/posts/Vue_Life_Cycle/lifecycle.png)
 
 　　上图展示了 Vue 实例的生命周期，这是[官网上的原图](https://cn.vuejs.org/images/lifecycle.png)，我在学习的时候也没有一下就弄懂这张图说的所有东西，但是随着 Vue 学习的深入，对这张图的兴趣越来越浓。可以看出，在 Vue 生命
 
@@ -112,7 +112,7 @@ ___
 
 　　运行后打开调试查看 console 打印的内容，可以看到：
 
-　　![](/images/posts/Vue-Life-Cycle/console.png)
+　　![](/images/posts/Vue_Life_Cycle/console.png)
 
 　　这样可以较为清晰地看到一个 Vue 示例在创建过程中调用的几个生命周期钩子函数。
 
@@ -145,8 +145,8 @@ ___
 
 随笔有不妥的地方感谢留言指正，谢谢您！  
 其他知识可上网查找资料，共同学习进步。  
-在操作过程中或者随笔有问题的话欢迎在 [Vue 生命周期](https://liuxy0551.github.io/2018/09/Vue-Life-Cycle/) 里提问或指正，或者从 [关于我](https://liuxy0551.github.io/about/) 中可以找到我的联系方式。
+在操作过程中或者随笔有问题的话欢迎在 [Vue 生命周期](https://liuxy0551.github.io/2018/09/Vue_Life_Cycle/) 里提问或指正，或者从 [关于我](https://liuxy0551.github.io/about/) 中可以找到我的联系方式。
 
 
 <br>
-转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [Vue 生命周期](https://liuxy0551.github.io/2018/09/Vue-Life-Cycle/)
+转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [Vue 生命周期](https://liuxy0551.github.io/2018/09/Vue_Life_Cycle/)

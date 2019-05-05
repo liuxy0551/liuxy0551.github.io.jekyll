@@ -13,7 +13,7 @@ ___
 ### 一、实现效果
 
 <center>
-    <iframe width="500" height="400" src="/images/posts/Img-Center-CSS/3.mp4" allowfullscreen></iframe>
+    <iframe width="500" height="400" src="/images/posts/Img_Center_CSS/3.mp4" allowfullscreen></iframe>
 </center>
 <br>
 
@@ -23,7 +23,7 @@ ___
 
 #### 1、HTML 部分
 
-　　![](/images/posts/Img-Center-CSS/1.png)
+　　![](/images/posts/Img_Center_CSS/1.png)
 
     <mt-swipe :auto="0">
       <mt-swipe-item class="product-swipe" v-for="item in product_info.images" :key="item.piid">
@@ -33,7 +33,7 @@ ___
 
 #### 2、CSS 部分
 
-　　![](/images/posts/Img-Center-CSS/2.png)
+　　![](/images/posts/Img_Center_CSS/2.png)
 
       .product-swipe {
         width: 750px;
@@ -62,8 +62,8 @@ ___
 
 随笔有不妥的地方感谢留言指正，谢谢您！  
 其他知识可上网查找资料，共同学习进步。  
-在操作过程中或者随笔有问题的话欢迎在 [图片大小不固定时在 div 中居中显示](https://liuxy0551.github.io/2018/10/Img-Center-CSS/) 里提问或指正，或者从 [关于我](https://liuxy0551.github.io/about/) 中可以找到我的联系方式。
+在操作过程中或者随笔有问题的话欢迎在 [图片大小不固定时在 div 中居中显示](https://liuxy0551.github.io/2018/10/Img_Center_CSS/) 里提问或指正，或者从 [关于我](https://liuxy0551.github.io/about/) 中可以找到我的联系方式。
 
 
 <br>
-转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [图片大小不固定时在 div 中居中显示](https://liuxy0551.github.io/2018/10/Img-Center-CSS/)
+转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [图片大小不固定时在 div 中居中显示](https://liuxy0551.github.io/2018/10/Img_Center_CSS/)

@@ -15,27 +15,27 @@ ___
 
 ### 一、我采用的实现方法
 
-　　![](/images/posts/Transmit-Value/1.png)
+　　![](/images/posts/Transmit_Value/1.png)
 
 　　上图，跳转前的页面。给每一行的按钮绑定点击事件，并将每一行的数据携带上。
 
-　　![](/images/posts/Transmit-Value/5.png)
+　　![](/images/posts/Transmit_Value/5.png)
 
 　　上图，按钮的点击事件。首先创建 props ，然后在 props 中创建对应的属性名，之后即可在 template 中使用接收到的对象。
 
-　　![](/images/posts/Transmit-Value/3.png)
+　　![](/images/posts/Transmit_Value/3.png)
 
 　　上图，跳转前的页面所对应的响应事件。其中 path 所对应的 '/order/orderDetails' 我已经在 src/router/index.js 中注册声明，如下图：
 
-　　![](/images/posts/Transmit-Value/4.png)
+　　![](/images/posts/Transmit_Value/4.png)
 
 　　上图，在 src/router/index.js 中注册声明。
 
 　　点击“订单详情”按钮后，页面跳转，此时的 URL 为：
 
-　　![](/images/posts/Transmit-Value/2.png)
+　　![](/images/posts/Transmit_Value/2.png)
 
-　　![](/images/posts/Transmit-Value/6.png)
+　　![](/images/posts/Transmit_Value/6.png)
 
 　　上图，接收页接收数据。此时刷新页面，数据依然存在，因为 URL 没有改变，接收页直接从 URL 截取参数去接口中拿数据，故刷新页面不会影响接收页的数据。可以看到，这边是把需要的参数写入 URL 了，然后在接收页接收数据：
 
@@ -100,8 +100,8 @@ ___
 
 随笔有不妥的地方感谢留言指正，谢谢您！  
 其他知识可上网查找资料，共同学习进步。  
-在操作过程中或者随笔有问题的话欢迎在 [Vue 编程之路（二）——跳转页面传值](https://liuxy0551.github.io/2018/07/Transmit-Value/) 里提问或指正，或者从 [关于我](https://liuxy0551.github.io/about/) 中可以找到我的联系方式。
+在操作过程中或者随笔有问题的话欢迎在 [Vue 编程之路（二）——跳转页面传值](https://liuxy0551.github.io/2018/07/Transmit_Value/) 里提问或指正，或者从 [关于我](https://liuxy0551.github.io/about/) 中可以找到我的联系方式。
 
 
 <br>
-转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [Vue 编程之路（二）——跳转页面传值](https://liuxy0551.github.io/2018/07/Transmit-Value/)
+转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [Vue 编程之路（二）——跳转页面传值](https://liuxy0551.github.io/2018/07/Transmit_Value/)

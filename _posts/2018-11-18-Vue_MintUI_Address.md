@@ -12,7 +12,7 @@ ___
 
 ### 一、实现效果
 
-![](/images/posts/Vue-MintUI-Address/7.gif)
+![](/images/posts/Vue_MintUI_Address/7.gif)
 
 　　功能的实现参考了部分资料：
 
@@ -30,7 +30,7 @@ ___
 
 #### 1、HTML 部分
 
-　　![](/images/posts/Vue-MintUI-Address/2.png)
+　　![](/images/posts/Vue_MintUI_Address/2.png)
 
     <li class="m-default-address" @click="addressPopup = true">
       <div>
@@ -43,7 +43,7 @@ ___
       </div>
     </li>
 
-　　![](/images/posts/Vue-MintUI-Address/3.png)
+　　![](/images/posts/Vue_MintUI_Address/3.png)
 
     <!--省市区地址三级联动-->
     <mt-popup class="m-address-popup" v-model="addressPopup" position="bottom">
@@ -61,7 +61,7 @@ ___
 
 #### 2、JS 部分
 
-　　![](/images/posts/Vue-MintUI-Address/4.png)
+　　![](/images/posts/Vue_MintUI_Address/4.png)
       
     data() {
       return {
@@ -103,7 +103,7 @@ ___
       }
     }
 
-　　![](/images/posts/Vue-MintUI-Address/5.png)
+　　![](/images/posts/Vue_MintUI_Address/5.png)
       
       // 地址三级联动
       onMyAddressChange(picker, values) {
@@ -126,7 +126,7 @@ ___
         this.addressPopup = false;
       },
 
-　　![](/images/posts/Vue-MintUI-Address/6.png)
+　　![](/images/posts/Vue_MintUI_Address/6.png)
       
     created() {
       common.changeTitle('添加地址');
@@ -152,8 +152,8 @@ ___
 
 随笔有不妥的地方感谢留言指正，谢谢您！  
 其他知识可上网查找资料，共同学习进步。  
-在操作过程中或者随笔有问题的话欢迎在 [Vue Mint UI 省市区地址三级联动](https://liuxy0551.github.io/2018/11/Vue-MintUI-Address/) 里提问或指正，或者从 [关于我](https://liuxy0551.github.io/about/) 中可以找到我的联系方式。
+在操作过程中或者随笔有问题的话欢迎在 [Vue Mint UI 省市区地址三级联动](https://liuxy0551.github.io/2018/11/Vue_MintUI_Address/) 里提问或指正，或者从 [关于我](https://liuxy0551.github.io/about/) 中可以找到我的联系方式。
 
 
 <br>
-转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [Vue Mint UI 省市区地址三级联动](https://liuxy0551.github.io/2018/11/Vue-MintUI-Address/)
+转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [Vue Mint UI 省市区地址三级联动](https://liuxy0551.github.io/2018/11/Vue_MintUI_Address/)

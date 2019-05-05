@@ -18,7 +18,7 @@ ___
     
 　　这一步可能会遇到一些问题：
    
-　　![](/images/posts/Mac-Jekyll/1.png)
+　　![](/images/posts/Mac_Jekyll/1.png)
 
 　　如上图所说，我对 /Library/Ruby/Gems/2.3.0 这个文件夹没有写权限，指令未完成，那就给文件夹权限呗。
 
@@ -42,7 +42,7 @@ ___
     
 　　此时出现了新的问题：
 
-　　![](/images/posts/Mac-Jekyll/2.png)
+　　![](/images/posts/Mac_Jekyll/2.png)
 
     Configuration file: /Users/czre/git/blog/_config.yml
        Deprecation: The 'gems' configuration option has been renamed to 'plugins'. Please update your config file accordingly.
@@ -54,13 +54,13 @@ ___
     
 　　另外也有可能出现没有 jekyll-gist 和 jekyll-sitemap 等错误，解决方法同上，这些错误取决于模板所采用的一些服务，需要安装好这些服务。 
 
-　　![](/images/posts/Mac-Jekyll/3.png)
+　　![](/images/posts/Mac_Jekyll/3.png)
 
 　　经过上述步骤，输入以下指令就可以在 [http://127.0.0.1:4000/](http://127.0.0.1:4000/) 或者 [http://localhost:4000](http://localhost:4000) 见到博客了。
 
     $ jekyll serve
 
-　　![](/images/posts/Mac-Jekyll/4.png)
+　　![](/images/posts/Mac_Jekyll/4.png)
 
 
 #### 以上
@@ -70,8 +70,8 @@ ___
 
 随笔有不妥的地方感谢留言指正，谢谢您！  
 其他知识可上网查找资料，共同学习进步。  
-在操作过程中或者随笔有问题的话欢迎在 [在 macOS 中安装 Jekyll](https://liuxy0551.github.io/2018/11/Mac-Jekyll/) 里提问或指正，或者从 [关于我](https://liuxy0551.github.io/about/) 中可以找到我的联系方式。
+在操作过程中或者随笔有问题的话欢迎在 [在 macOS 中安装 Jekyll](https://liuxy0551.github.io/2018/11/Mac_Jekyll/) 里提问或指正，或者从 [关于我](https://liuxy0551.github.io/about/) 中可以找到我的联系方式。
 
 
 <br>
-转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [在 macOS 中安装 Jekyll](https://liuxy0551.github.io/2018/11/Mac-Jekyll/)
+转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [在 macOS 中安装 Jekyll](https://liuxy0551.github.io/2018/11/Mac_Jekyll/)

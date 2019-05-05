@@ -17,23 +17,23 @@ ___
 
 ### 一、现有前端框架的 filter
 
-　　![](/images/posts/Vue-WePY-filter/3.png)
+　　![](/images/posts/Vue_WePY_filter/3.png)
     
 　　在后端同学没有返回适合显示的数据或者不方便处理数据时，可以在前端使用过滤器处理，上述对时间和金额进行处理，使用 `|` 作为管道符，传递参数进行序列化。
-date 的过滤写法可参考 [date.js](https://github.com/liuxy0551/liuxy0551.github.io/blob/master/images/posts/Vue-WePY-filter/date.js) 。
+date 的过滤写法可参考 [date.js](https://github.com/liuxy0551/liuxy0551.github.io/blob/master/images/posts/Vue_WePY_filter/date.js) 。
    
 
 ### 二、小程序中过滤器的使用
 
-　　![](/images/posts/Vue-WePY-filter/2.png)
+　　![](/images/posts/Vue_WePY_filter/2.png)
 
-　　![](/images/posts/Vue-WePY-filter/1.png)
+　　![](/images/posts/Vue_WePY_filter/1.png)
 
 　　上图是小程序对金额的处理效果（基于 WePY），可参考 [微信小程序 WXS 文档](https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxs/index.html?search-key=wxs)。
 
-　　在 template 中引入 [money.wxs](https://github.com/liuxy0551/liuxy0551.github.io/blob/master/images/posts/Vue-WePY-filter/money.wxs) 文件，并传入数据进行转换，页面代码可参考 [detail.wpy](https://github.com/liuxy0551/liuxy0551.github.io/blob/master/images/posts/Vue-WePY-filter/detail.wpy)
+　　在 template 中引入 [money.wxs](https://github.com/liuxy0551/liuxy0551.github.io/blob/master/images/posts/Vue_WePY_filter/money.wxs) 文件，并传入数据进行转换，页面代码可参考 [detail.wpy](https://github.com/liuxy0551/liuxy0551.github.io/blob/master/images/posts/Vue_WePY_filter/detail.wpy)
 
-　　![](/images/posts/Vue-WePY-filter/4.png)
+　　![](/images/posts/Vue_WePY_filter/4.png)
 
 <br>
 
@@ -43,8 +43,8 @@ ___
 
 随笔有不妥的地方感谢留言指正，谢谢您！  
 其他知识可上网查找资料，共同学习进步。  
-在操作过程中或者随笔有问题的话欢迎在 [Vue 和 WePY 中过滤器写法](https://liuxy0551.github.io/2019/04/Vue-WePY-filter/) 里提问或指正，或者从 [关于我](https://liuxy0551.github.io/about/) 中可以找到我的联系方式。
+在操作过程中或者随笔有问题的话欢迎在 [Vue 和 WePY 中过滤器写法](https://liuxy0551.github.io/2019/04/Vue_WePY_filter/) 里提问或指正，或者从 [关于我](https://liuxy0551.github.io/about/) 中可以找到我的联系方式。
 
 
 <br>
-转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [Vue 和 WePY 中过滤器写法](https://liuxy0551.github.io/2019/04/Vue-WePY-filter/)
+转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [Vue 和 WePY 中过滤器写法](https://liuxy0551.github.io/2019/04/Vue_WePY_filter/)

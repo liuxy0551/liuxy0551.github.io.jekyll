@@ -12,14 +12,14 @@ ___
 
 ### 实现效果
 
-![](/images/posts/Vue-Countdown/1.gif)
+![](/images/posts/Vue_Countdown/1.gif)
 
 
 ### 具体实现
 
 #### 1、HTML 部分
 
-![](/images/posts/Vue-Countdown/2.png)
+![](/images/posts/Vue_Countdown/2.png)
 
     <li>
       <div>
@@ -42,7 +42,7 @@ ___
 
 #### 2、JS 部分
 
-![](/images/posts/Vue-Countdown/3.png)
+![](/images/posts/Vue_Countdown/3.png)
 
     data() {
       return {
@@ -53,7 +53,7 @@ ___
       }
     }
 
-![](/images/posts/Vue-Countdown/4.png)
+![](/images/posts/Vue_Countdown/4.png)
 
       // 获取验证码
       getInforcode() {
@@ -83,7 +83,7 @@ ___
       
 #### 3、CSS 部分
 
-![](/images/posts/Vue-Countdown/5.png)
+![](/images/posts/Vue_Countdown/5.png)
 
     .m-get-code{
       display: inline-block;
@@ -107,8 +107,8 @@ ___
 
 随笔有不妥的地方感谢留言指正，谢谢您！  
 其他知识可上网查找资料，共同学习进步。  
-在操作过程中或者随笔有问题的话欢迎在 [Vue 中实现验证码倒计时功能](https://liuxy0551.github.io/2018/08/Vue-Countdown/) 里提问或指正，或者从 [关于我](https://liuxy0551.github.io/about/) 中可以找到我的联系方式。
+在操作过程中或者随笔有问题的话欢迎在 [Vue 中实现验证码倒计时功能](https://liuxy0551.github.io/2018/08/Vue_Countdown/) 里提问或指正，或者从 [关于我](https://liuxy0551.github.io/about/) 中可以找到我的联系方式。
 
 
 <br>
-转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [Vue 中实现验证码倒计时功能](https://liuxy0551.github.io/2018/08/Vue-Countdown/)
+转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [Vue 中实现验证码倒计时功能](https://liuxy0551.github.io/2018/08/Vue_Countdown/)

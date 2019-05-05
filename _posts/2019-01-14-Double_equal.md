@@ -12,7 +12,7 @@ ___
 
 ### 一、简单理解
 
-![](/images/posts/==/1.png)
+![](/images/posts/double_equal/1.png)
 
 　　== 代表相同，=== 代表严格相同。  
 
@@ -57,8 +57,8 @@ ___
 
 随笔有不妥的地方感谢留言指正，谢谢您！  
 其他知识可上网查找资料，共同学习进步。  
-在操作过程中或者随笔有问题的话欢迎在 [JS 中 == 和 === 的区别](https://liuxy0551.github.io/2019/01/JavaScript===/) 里提问或指正，或者从 [关于我](https://liuxy0551.github.io/about/) 中可以找到我的联系方式。
+在操作过程中或者随笔有问题的话欢迎在 [JS 中 == 和 === 的区别](https://liuxy0551.github.io/2019/01/Double_equal/) 里提问或指正，或者从 [关于我](https://liuxy0551.github.io/about/) 中可以找到我的联系方式。
 
 
 <br>
-转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [JS 中 == 和 === 的区别](https://liuxy0551.github.io/2019/01/JavaScript===/)
+转载请注明：[刘先玉的博客](https://liuxy0551.github.io/) » [JS 中 == 和 === 的区别](https://liuxy0551.github.io/2019/01/Double_equal/)
