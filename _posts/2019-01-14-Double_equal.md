@@ -12,7 +12,7 @@ ___
 
 ### 一、简单理解
 
-![](/images/posts/double_equal/1.png)
+![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/double_equal/1.png)
 
 　　== 代表相同，=== 代表严格相同。  
 

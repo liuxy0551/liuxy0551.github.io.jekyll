@@ -12,14 +12,14 @@ ___
 
 ### 实现效果
 
-![](/images/posts/Vue_Countdown/1.gif)
+![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/Vue_Countdown/1.gif)
 
 
 ### 具体实现
 
 #### 1、HTML 部分
 
-![](/images/posts/Vue_Countdown/2.png)
+![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/Vue_Countdown/2.png)
 
     <li>
       <div>
@@ -42,7 +42,7 @@ ___
 
 #### 2、JS 部分
 
-![](/images/posts/Vue_Countdown/3.png)
+![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/Vue_Countdown/3.png)
 
     data() {
       return {
@@ -53,7 +53,7 @@ ___
       }
     }
 
-![](/images/posts/Vue_Countdown/4.png)
+![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/Vue_Countdown/4.png)
 
       // 获取验证码
       getInforcode() {
@@ -83,7 +83,7 @@ ___
       
 #### 3、CSS 部分
 
-![](/images/posts/Vue_Countdown/5.png)
+![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/Vue_Countdown/5.png)
 
     .m-get-code{
       display: inline-block;

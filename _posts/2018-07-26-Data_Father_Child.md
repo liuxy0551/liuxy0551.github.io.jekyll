@@ -12,15 +12,15 @@ ___
 
 ### 一、父组件向子组件传值
 
-　　![](/images/posts/Data_Father_Child/2.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/Data_Father_Child/2.png)
 
 　　上图，这边实现的是从父组件向子组件动态传值，传的是一个对象。在子组件上动态绑定要传入的对象，如果是静态数据（如："Hello World!"）则无需属性名前的冒号，并且需要在 components 中声明。
 
-　　![](/images/posts/Data_Father_Child/3.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/Data_Father_Child/3.png)
 
 　　上图，首先创建 props ，然后在 props 中创建对应的属性名，之后即可在 template 中使用接收到的对象。
 
-　　![](/images/posts/Data_Father_Child/4.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/Data_Father_Child/4.png)
 
 >**总结一下：  父组件向子组件传对象（值）成功**
 >* 1、在父组件中注册并引用子组件
@@ -31,7 +31,7 @@ ___
 
 ### 二、子组件向父组件传值
 
-　　![](/images/posts/Data_Father_Child/5.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/Data_Father_Child/5.png)
 
 　　首先在子组件创建一个按钮，给这个按钮绑定一个点击事件。上图是子组件中又调用了其他的组件（分页组件），我这边是子组件把页码传递给父组件，父组件拿着页码去请求数据，原理和按钮绑定点击事件是相同的道理。
 
@@ -41,7 +41,7 @@ ___
         this.$emit('toPage', v)
     }
     
-　　![](/images/posts/Data_Father_Child/6.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/Data_Father_Child/6.png)
 
 　　在父组件的子组件标签中监听该事件并添加一个响应事件来处理数据。点击分页组件上的页码按钮或点击创建的按钮，在响应事件中使用数据，可观察到传值成功。
 

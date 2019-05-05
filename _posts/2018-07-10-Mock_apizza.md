@@ -36,7 +36,7 @@ ___
 >* 4、点击预览按钮查看 mock 响应
 >* 5、保存后，即可去代码中使用 mock 在线地址了
 
-<br>![](/images/posts/apizza-Mock/apizza.png)<br>
+<br>![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/apizza-Mock/apizza.png)<br>
 
 　　还可以去 apizza 的[使用帮助页](https://apizza.net/wiki/datamodel)查看更多使用方法。
 

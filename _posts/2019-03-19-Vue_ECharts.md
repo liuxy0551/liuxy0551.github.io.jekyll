@@ -12,8 +12,8 @@ ___
 
 ### 一、实现效果
 
-![](/images/posts/ECharts/world.png)
-![](/images/posts/ECharts/China.png)
+![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/ECharts/world.png)
+![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/ECharts/China.png)
 
 <br>
 ### 二、引入组件及说明

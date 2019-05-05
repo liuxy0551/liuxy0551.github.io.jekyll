@@ -23,7 +23,7 @@ ___
 
 #### 1、HTML 部分
 
-　　![](/images/posts/Img_Center_CSS/1.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/Img_Center_CSS/1.png)
 
     <mt-swipe :auto="0">
       <mt-swipe-item class="product-swipe" v-for="item in product_info.images" :key="item.piid">
@@ -33,7 +33,7 @@ ___
 
 #### 2、CSS 部分
 
-　　![](/images/posts/Img_Center_CSS/2.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/Img_Center_CSS/2.png)
 
       .product-swipe {
         width: 750px;

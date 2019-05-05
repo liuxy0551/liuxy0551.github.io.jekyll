@@ -47,11 +47,11 @@ ___
 
     SELECT 'ALTER TABLE '||TABLE_NAME||' ALLOCATE EXTENT;' FROM USER_TABLES WHERE SEGMENT_CREATED='NO';
 
-![](/images/posts/Oracle_PLSQL/result.png)<br>
+![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/Oracle_PLSQL/result.png)<br>
 
 可以通过语句导出查询结果，执行导出的语句即可（表数量少的话可以复制粘贴执行查询结果）。
 
-<br>![](/images/posts/Oracle_PLSQL/yuju.png)
+<br>![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/Oracle_PLSQL/yuju.png)
 
     set heading off;
     set echo off;

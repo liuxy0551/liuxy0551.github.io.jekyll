@@ -14,7 +14,7 @@ ___
 
 ### 一、生命周期图示
 
-　　![](/images/posts/Vue_Life_Cycle/lifecycle.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/Vue_Life_Cycle/lifecycle.png)
 
 　　上图展示了 Vue 实例的生命周期，这是[官网上的原图](https://cn.vuejs.org/images/lifecycle.png)，我在学习的时候也没有一下就弄懂这张图说的所有东西，但是随着 Vue 学习的深入，对这张图的兴趣越来越浓。可以看出，在 Vue 生命
 
@@ -112,7 +112,7 @@ ___
 
 　　运行后打开调试查看 console 打印的内容，可以看到：
 
-　　![](/images/posts/Vue_Life_Cycle/console.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/Vue_Life_Cycle/console.png)
 
 　　这样可以较为清晰地看到一个 Vue 示例在创建过程中调用的几个生命周期钩子函数。
 

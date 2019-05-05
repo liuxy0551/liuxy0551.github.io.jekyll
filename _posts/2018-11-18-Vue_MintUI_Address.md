@@ -12,7 +12,7 @@ ___
 
 ### 一、实现效果
 
-![](/images/posts/Vue_MintUI_Address/7.gif)
+![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/Vue_MintUI_Address/7.gif)
 
 　　功能的实现参考了部分资料：
 
@@ -30,7 +30,7 @@ ___
 
 #### 1、HTML 部分
 
-　　![](/images/posts/Vue_MintUI_Address/2.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/Vue_MintUI_Address/2.png)
 
     <li class="m-default-address" @click="addressPopup = true">
       <div>
@@ -43,7 +43,7 @@ ___
       </div>
     </li>
 
-　　![](/images/posts/Vue_MintUI_Address/3.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/Vue_MintUI_Address/3.png)
 
     <!--省市区地址三级联动-->
     <mt-popup class="m-address-popup" v-model="addressPopup" position="bottom">
@@ -61,7 +61,7 @@ ___
 
 #### 2、JS 部分
 
-　　![](/images/posts/Vue_MintUI_Address/4.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/Vue_MintUI_Address/4.png)
       
     data() {
       return {
@@ -103,7 +103,7 @@ ___
       }
     }
 
-　　![](/images/posts/Vue_MintUI_Address/5.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/Vue_MintUI_Address/5.png)
       
       // 地址三级联动
       onMyAddressChange(picker, values) {
@@ -126,7 +126,7 @@ ___
         this.addressPopup = false;
       },
 
-　　![](/images/posts/Vue_MintUI_Address/6.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/Vue_MintUI_Address/6.png)
       
     created() {
       common.changeTitle('添加地址');

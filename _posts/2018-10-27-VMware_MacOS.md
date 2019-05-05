@@ -22,29 +22,29 @@ ___
  
  提取码: p8jp。其中文件夹是第二个压缩包解压后的文件，第一个压缩包备用，第三个压缩包就是 MacOS High Sierra 10.13 镜像。如果链接失效，可以从[关于我](https://liuxy0551.github.io/about/)中找到我的联系方式。
 　　
-　　![](/images/posts/VMware_MacOS/36.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/36.png)
 
 　　(2) 保证 VMware 运行需要的几个服务已经启动，没设置过这些服务手动启动的可忽略。VMware 在关闭状态时，解压 unlocker-master.zip 文件，进入解压的文件夹，右击 win-install.cmd 文件，
 
 以管理员运行，等待运行完成即可。VMware 软件运行时以管理员运行该文件可能会报错，如果没有运行完成的话，可能会在新建虚拟机的时候发现没有 Apple Mac OS X(M) 操作系统选项。
 
-　　![](/images/posts/VMware_MacOS/1.png)<br>
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/1.png)<br>
 
 ### 2、新建虚拟机，载入 MacOS
 
 　　在完成以上准备工作后，就可以开始新建虚拟机载入 MacOS 了，后续步骤以图片为主。
 
-　　![](/images/posts/VMware_MacOS/2.png)
-　　![](/images/posts/VMware_MacOS/3.png)
-　　![](/images/posts/VMware_MacOS/4.png)
-　　![](/images/posts/VMware_MacOS/5.png)
-　　![](/images/posts/VMware_MacOS/6.png)<br>
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/2.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/3.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/4.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/5.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/6.png)<br>
 
 　　下图中的内存和处理器的分配数量可依主机性能而定，多多益善。
 
-　　![](/images/posts/VMware_MacOS/7.png)
-　　![](/images/posts/VMware_MacOS/8.png)
-　　![](/images/posts/VMware_MacOS/9.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/7.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/8.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/9.png)
 
 　　    正常情况下，初次开启此虚拟机后会出现如下图的错误，unlocker 的开发者给出了解决方法：找到并打开安装目录下的 XXXX.vmx 文件，使用记事本打开后，在 smc.present = "TRUE" 后添加
 
@@ -52,56 +52,56 @@ ___
 
     smc.version = "0"
 
-　　![](/images/posts/VMware_MacOS/10.png)
-　　![](/images/posts/VMware_MacOS/11.png)<br>
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/10.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/11.png)<br>
 
 　　按上图修改安装文件后，再次点击开启此虚拟机，即可开始初次开机时系统的安装过程。
 
-　　![](/images/posts/VMware_MacOS/12.png)
-　　![](/images/posts/VMware_MacOS/13.png)
-　　![](/images/posts/VMware_MacOS/14.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/12.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/13.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/14.png)
 
-　　![](/images/posts/VMware_MacOS/15.png)<br>
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/15.png)<br>
 
 　　安装时会出现上图中的情况，只有一个磁盘。为了文件管理方便，我将磁盘抹掉并改名，然后将系统安装在新出现的磁盘上。点击继续后就是系统的安装过程，静候佳音。
 
-　　![](/images/posts/VMware_MacOS/16.png)
-　　![](/images/posts/VMware_MacOS/17.png)
-　　![](/images/posts/VMware_MacOS/18.png)<br>
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/16.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/17.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/18.png)<br>
 
 　　接下来就是系统的一些基本设置。
 
-　　![](/images/posts/VMware_MacOS/19.png)
-　　![](/images/posts/VMware_MacOS/20.png)<br>
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/19.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/20.png)<br>
 
 ### 3、安装 VMware Tools
 
 　　VMware 中安装 VMware Tools 后，可支持自由拖拽的功能，鼠标也可以在虚拟机与主机之前自由移动（不用再按 Ctrl + Alt），且虚拟机屏幕也可以全屏了，好处多多。
 
-　　![](/images/posts/VMware_MacOS/21.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/21.png)
 　　![](/images/posts/VMware_MacOS/22.png)
-　　![](/images/posts/VMware_MacOS/23.png)
-　　![](/images/posts/VMware_MacOS/24.png)
-　　![](/images/posts/VMware_MacOS/25.png)
-　　![](/images/posts/VMware_MacOS/26.png)<br>
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/23.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/24.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/25.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/26.png)<br>
 
 　　安装完成后重启，会报错 - 系统扩展已被阻止，按照图片顺序设置，允许载入该系统软件。
 
-　　![](/images/posts/VMware_MacOS/27.png)
-　　![](/images/posts/VMware_MacOS/28.png)<br>
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/27.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/28.png)<br>
 
 　　允许载入后按上述步骤重新安装 VMware Tools。
 
-　　![](/images/posts/VMware_MacOS/29.png)
-　　![](/images/posts/VMware_MacOS/30.png)
-　　![](/images/posts/VMware_MacOS/31.png)
-　　![](/images/posts/VMware_MacOS/32.png)
-　　![](/images/posts/VMware_MacOS/33.png)<br>
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/29.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/30.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/31.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/32.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/33.png)<br>
 
 　　安装完成后重启，按下图推出“ VMware Tools ”，这样桌面就很干净了。
 
-　　![](/images/posts/VMware_MacOS/34.png)
-　　![](/images/posts/VMware_MacOS/35.png)<br>
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/34.png)
+　　![](https://raw.githubusercontent.com/liuxy0551/liuxy0551.github.io.jekyll/master/images/posts/VMware_MacOS/35.png)<br>
 
 
 >**注意**
